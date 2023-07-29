@@ -1,0 +1,1741 @@
+[gd_scene load_steps=341 format=3 uid="uid://vejm0ivfp331"]
+
+[ext_resource type="ArrayMesh" uid="uid://4l8islr8qbg2" path="res://assets/kenney_nature-kit/Models/OBJ format/bed.obj" id="1_x4xe6"]
+[ext_resource type="ArrayMesh" uid="uid://4w2ckc8umquh" path="res://assets/kenney_nature-kit/Models/OBJ format/bed_floor.obj" id="2_0pbfu"]
+[ext_resource type="ArrayMesh" uid="uid://71q133o6absd" path="res://assets/kenney_nature-kit/Models/OBJ format/bridge_center_stone.obj" id="3_nwm3i"]
+[ext_resource type="ArrayMesh" uid="uid://dgou2se562rk0" path="res://assets/kenney_nature-kit/Models/OBJ format/bridge_center_stoneRound.obj" id="4_j4ysj"]
+[ext_resource type="ArrayMesh" uid="uid://lk6y3sp25txs" path="res://assets/kenney_nature-kit/Models/OBJ format/bridge_center_wood.obj" id="5_y1jhl"]
+[ext_resource type="ArrayMesh" uid="uid://q86u5opa3juq" path="res://assets/kenney_nature-kit/Models/OBJ format/bridge_center_woodRound.obj" id="6_y4747"]
+[ext_resource type="ArrayMesh" uid="uid://slsw8q4simql" path="res://assets/kenney_nature-kit/Models/OBJ format/bridge_side_stone.obj" id="7_1jp7u"]
+[ext_resource type="ArrayMesh" uid="uid://dw0rst8wgynkv" path="res://assets/kenney_nature-kit/Models/OBJ format/bridge_side_stoneRound.obj" id="8_opuqx"]
+[ext_resource type="ArrayMesh" uid="uid://d3gh1os7rhlw4" path="res://assets/kenney_nature-kit/Models/OBJ format/bridge_side_wood.obj" id="9_8vbxs"]
+[ext_resource type="ArrayMesh" uid="uid://tiolr2b4sdtg" path="res://assets/kenney_nature-kit/Models/OBJ format/bridge_side_woodRound.obj" id="10_gg35k"]
+[ext_resource type="ArrayMesh" uid="uid://byuemkqpx0bej" path="res://assets/kenney_nature-kit/Models/OBJ format/bridge_stone.obj" id="11_56xfc"]
+[ext_resource type="ArrayMesh" uid="uid://bydsgtdmanbch" path="res://assets/kenney_nature-kit/Models/OBJ format/bridge_stoneNarrow.obj" id="12_7x4r2"]
+[ext_resource type="ArrayMesh" uid="uid://dwtxqbs5ur0rd" path="res://assets/kenney_nature-kit/Models/OBJ format/bridge_stoneRound.obj" id="13_vrh1m"]
+[ext_resource type="ArrayMesh" uid="uid://w23hqrxvow0y" path="res://assets/kenney_nature-kit/Models/OBJ format/bridge_stoneRoundNarrow.obj" id="14_ebjcw"]
+[ext_resource type="ArrayMesh" uid="uid://clu2l8cortt7f" path="res://assets/kenney_nature-kit/Models/OBJ format/bridge_wood.obj" id="15_wq5f6"]
+[ext_resource type="ArrayMesh" uid="uid://dk6rc7iavtdu8" path="res://assets/kenney_nature-kit/Models/OBJ format/bridge_woodNarrow.obj" id="16_7tr16"]
+[ext_resource type="ArrayMesh" uid="uid://ctulup8pqqdl5" path="res://assets/kenney_nature-kit/Models/OBJ format/bridge_woodRound.obj" id="17_ngclx"]
+[ext_resource type="ArrayMesh" uid="uid://dxu6e0bnprw36" path="res://assets/kenney_nature-kit/Models/OBJ format/bridge_woodRoundNarrow.obj" id="18_65lgk"]
+[ext_resource type="ArrayMesh" uid="uid://b7emno3y0ymxl" path="res://assets/kenney_nature-kit/Models/OBJ format/cactus_short.obj" id="19_03yfy"]
+[ext_resource type="ArrayMesh" uid="uid://cvjr82rlimc6w" path="res://assets/kenney_nature-kit/Models/OBJ format/cactus_tall.obj" id="20_ax57k"]
+[ext_resource type="ArrayMesh" uid="uid://410stfw523xs" path="res://assets/kenney_nature-kit/Models/OBJ format/campfire_bricks.obj" id="21_xwicx"]
+[ext_resource type="ArrayMesh" uid="uid://d3h7twtixv53a" path="res://assets/kenney_nature-kit/Models/OBJ format/campfire_logs.obj" id="22_0v5hw"]
+[ext_resource type="ArrayMesh" uid="uid://01hsnlio25nv" path="res://assets/kenney_nature-kit/Models/OBJ format/campfire_planks.obj" id="23_t4pyi"]
+[ext_resource type="ArrayMesh" uid="uid://s5luwlgk6t3h" path="res://assets/kenney_nature-kit/Models/OBJ format/campfire_stones.obj" id="24_bgadf"]
+[ext_resource type="ArrayMesh" uid="uid://xn0bfexpqmgo" path="res://assets/kenney_nature-kit/Models/OBJ format/canoe.obj" id="25_53kkm"]
+[ext_resource type="ArrayMesh" uid="uid://ck3id1s4li32" path="res://assets/kenney_nature-kit/Models/OBJ format/canoe_paddle.obj" id="26_jbxnm"]
+[ext_resource type="ArrayMesh" uid="uid://bm8s6f65oybj6" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_blockCave_rock.obj" id="27_x2otp"]
+[ext_resource type="ArrayMesh" uid="uid://b3tshl6iqlbob" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_blockCave_stone.obj" id="28_5p40a"]
+[ext_resource type="ArrayMesh" uid="uid://8wnmotncvk6o" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_blockDiagonal_rock.obj" id="29_46s71"]
+[ext_resource type="ArrayMesh" uid="uid://bkd88lol3rdu6" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_blockDiagonal_stone.obj" id="30_oifq1"]
+[ext_resource type="ArrayMesh" uid="uid://drx8nux1vcwnl" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_blockHalf_rock.obj" id="31_8elf3"]
+[ext_resource type="ArrayMesh" uid="uid://bw5eeeajomayy" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_blockHalf_stone.obj" id="32_utkto"]
+[ext_resource type="ArrayMesh" uid="uid://nnnoqdghfeib" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_blockQuarter_rock.obj" id="33_16pcf"]
+[ext_resource type="ArrayMesh" uid="uid://dvo7rc8n4gfy6" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_blockQuarter_stone.obj" id="34_fanni"]
+[ext_resource type="ArrayMesh" uid="uid://b4p0g5dumisn0" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_blockSlopeHalfWalls_rock.obj" id="35_5uf77"]
+[ext_resource type="ArrayMesh" uid="uid://b1fqk0towqpvk" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_blockSlopeHalfWalls_stone.obj" id="36_epwry"]
+[ext_resource type="ArrayMesh" uid="uid://bk08ktlugj2or" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_blockSlopeWalls_rock.obj" id="37_1wxmu"]
+[ext_resource type="ArrayMesh" uid="uid://7smne4pp5bbt" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_blockSlopeWalls_stone.obj" id="38_dj7lv"]
+[ext_resource type="ArrayMesh" uid="uid://bdrwfk7lg2u1c" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_blockSlope_rock.obj" id="39_fbijv"]
+[ext_resource type="ArrayMesh" uid="uid://cxa47tnmck0em" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_blockSlope_stone.obj" id="40_ru7xx"]
+[ext_resource type="ArrayMesh" uid="uid://e6c6emmbem41" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_block_rock.obj" id="41_ooib2"]
+[ext_resource type="ArrayMesh" uid="uid://b0ximdfneqjum" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_block_stone.obj" id="42_ypo5b"]
+[ext_resource type="ArrayMesh" uid="uid://cc7euxgl5grga" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_cave_rock.obj" id="43_5i4jg"]
+[ext_resource type="ArrayMesh" uid="uid://ubnnynkt80w1" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_cave_stone.obj" id="44_j0h0x"]
+[ext_resource type="ArrayMesh" uid="uid://6rs50yhc8cw8" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_cornerInnerLarge_rock.obj" id="45_srob7"]
+[ext_resource type="ArrayMesh" uid="uid://fsgwtgcb5dlf" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_cornerInnerLarge_stone.obj" id="46_s7g85"]
+[ext_resource type="ArrayMesh" uid="uid://c5ex0eq1l0ju4" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_cornerInnerTop_rock.obj" id="47_acjq3"]
+[ext_resource type="ArrayMesh" uid="uid://jq6aotj2aiai" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_cornerInnerTop_stone.obj" id="48_ytxa0"]
+[ext_resource type="ArrayMesh" uid="uid://d0wm22pxx6pnw" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_cornerInner_rock.obj" id="49_4rmux"]
+[ext_resource type="ArrayMesh" uid="uid://ntdlqs58j2xx" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_cornerInner_stone.obj" id="50_srif4"]
+[ext_resource type="ArrayMesh" uid="uid://mm3pr88r4bm0" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_cornerLarge_rock.obj" id="51_3huo3"]
+[ext_resource type="ArrayMesh" uid="uid://c1cw8mbbp782p" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_cornerLarge_stone.obj" id="52_xtqk7"]
+[ext_resource type="ArrayMesh" uid="uid://d1sf6eipj3vv0" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_cornerTop_rock.obj" id="53_gg61y"]
+[ext_resource type="ArrayMesh" uid="uid://cye0783rs88ew" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_cornerTop_stone.obj" id="54_epnam"]
+[ext_resource type="ArrayMesh" uid="uid://di85i81kysej5" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_corner_rock.obj" id="55_kotsx"]
+[ext_resource type="ArrayMesh" uid="uid://dh0fk272awi3s" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_corner_stone.obj" id="56_tpl35"]
+[ext_resource type="ArrayMesh" uid="uid://bh53adanyejku" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_diagonal_rock.obj" id="57_suxm5"]
+[ext_resource type="ArrayMesh" uid="uid://c26g16kxr4cux" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_diagonal_stone.obj" id="58_n0i3o"]
+[ext_resource type="ArrayMesh" uid="uid://c4vecprvgg4mh" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_halfCornerInner_rock.obj" id="59_to5jh"]
+[ext_resource type="ArrayMesh" uid="uid://b12w5gtkq7btg" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_halfCornerInner_stone.obj" id="60_a0o1n"]
+[ext_resource type="ArrayMesh" uid="uid://cdoxnlr2narpg" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_halfCorner_rock.obj" id="61_ahhnw"]
+[ext_resource type="ArrayMesh" uid="uid://bhyheal0w8cg7" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_halfCorner_stone.obj" id="62_x11mp"]
+[ext_resource type="ArrayMesh" uid="uid://bn7f8g41f8rhu" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_half_rock.obj" id="63_jiiqh"]
+[ext_resource type="ArrayMesh" uid="uid://bwpye8ialuvuv" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_half_stone.obj" id="64_72lxu"]
+[ext_resource type="ArrayMesh" uid="uid://cw4ccjr4o62xf" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_large_rock.obj" id="65_l2gmr"]
+[ext_resource type="ArrayMesh" uid="uid://o6csg6b2u67h" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_large_stone.obj" id="66_bhu2d"]
+[ext_resource type="ArrayMesh" uid="uid://bqeungy26wc0u" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_rock.obj" id="67_memp2"]
+[ext_resource type="ArrayMesh" uid="uid://c480wgcgmd73g" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_stepsCornerInner_rock.obj" id="68_5qc86"]
+[ext_resource type="ArrayMesh" uid="uid://bf5jjnc4j1wc1" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_stepsCornerInner_stone.obj" id="69_ddpe5"]
+[ext_resource type="ArrayMesh" uid="uid://1vbbegul2mot" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_stepsCorner_rock.obj" id="70_27t4c"]
+[ext_resource type="ArrayMesh" uid="uid://brf5rn57dr776" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_stepsCorner_stone.obj" id="71_tj0lc"]
+[ext_resource type="ArrayMesh" uid="uid://cwipq0bb3n7fp" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_steps_rock.obj" id="72_untdm"]
+[ext_resource type="ArrayMesh" uid="uid://bmscydri8pa80" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_steps_stone.obj" id="73_j8jut"]
+[ext_resource type="ArrayMesh" uid="uid://b1r0y4n5vgr62" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_stone.obj" id="74_rgoqb"]
+[ext_resource type="ArrayMesh" uid="uid://dneqbtcu0x0sx" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_topDiagonal_rock.obj" id="75_t8xnp"]
+[ext_resource type="ArrayMesh" uid="uid://bmxwocpdxowwd" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_topDiagonal_stone.obj" id="76_wj5r0"]
+[ext_resource type="ArrayMesh" uid="uid://dwayi0klytluv" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_top_rock.obj" id="77_y5ysw"]
+[ext_resource type="ArrayMesh" uid="uid://vh3jv5cpfo17" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_top_stone.obj" id="78_tfk08"]
+[ext_resource type="ArrayMesh" uid="uid://bi6mlgm3blkev" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_waterfallTop_rock.obj" id="79_ujwef"]
+[ext_resource type="ArrayMesh" uid="uid://bjjkelj47mkrb" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_waterfallTop_stone.obj" id="80_t1uqw"]
+[ext_resource type="ArrayMesh" uid="uid://bednghx2i8g4n" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_waterfall_rock.obj" id="81_8y4fj"]
+[ext_resource type="ArrayMesh" uid="uid://cpnjn1pumu0de" path="res://assets/kenney_nature-kit/Models/OBJ format/cliff_waterfall_stone.obj" id="82_preeb"]
+[ext_resource type="ArrayMesh" uid="uid://bvy6lq0k42340" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_bambooStageA.obj" id="83_aqlf6"]
+[ext_resource type="ArrayMesh" uid="uid://dco5b8a0rqpb3" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_bambooStageB.obj" id="84_oq5uc"]
+[ext_resource type="ArrayMesh" uid="uid://cwcegrmguqwmj" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_cornStageA.obj" id="85_ojl5w"]
+[ext_resource type="ArrayMesh" uid="uid://dnfubwbd0yif5" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_cornStageB.obj" id="86_q4wbd"]
+[ext_resource type="ArrayMesh" uid="uid://da41lnuqd40yv" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_cornStageC.obj" id="87_wyuqs"]
+[ext_resource type="ArrayMesh" uid="uid://blr8gposuj4c4" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_cornStageD.obj" id="88_bp7ok"]
+[ext_resource type="ArrayMesh" uid="uid://f3e63f14achh" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_dirtDoubleRow.obj" id="89_0rukq"]
+[ext_resource type="ArrayMesh" uid="uid://ce6fe86xlvit6" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_dirtDoubleRowCorner.obj" id="90_3g2vs"]
+[ext_resource type="ArrayMesh" uid="uid://4yx2xi23k4kw" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_dirtDoubleRowEnd.obj" id="91_654q1"]
+[ext_resource type="ArrayMesh" uid="uid://bhlsd114jauir" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_dirtRow.obj" id="92_a8mgk"]
+[ext_resource type="ArrayMesh" uid="uid://iwij02edolud" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_dirtRowCorner.obj" id="93_tubvi"]
+[ext_resource type="ArrayMesh" uid="uid://8frpatu1qgfm" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_dirtRowEnd.obj" id="94_fn74c"]
+[ext_resource type="ArrayMesh" uid="uid://brstrsotdso8v" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_dirtSingle.obj" id="95_r0a1x"]
+[ext_resource type="ArrayMesh" uid="uid://c830hem5ry16s" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_leafsStageA.obj" id="96_kryv2"]
+[ext_resource type="ArrayMesh" uid="uid://dqgb5ym4c7bht" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_leafsStageB.obj" id="97_7knt1"]
+[ext_resource type="ArrayMesh" uid="uid://bwxchnsjmm8j6" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_wheatStageA.obj" id="98_yl0ab"]
+[ext_resource type="ArrayMesh" uid="uid://c8evvpp8uosed" path="res://assets/kenney_nature-kit/Models/OBJ format/crops_wheatStageB.obj" id="99_0mfh3"]
+[ext_resource type="ArrayMesh" uid="uid://bapv2qhtaws8v" path="res://assets/kenney_nature-kit/Models/OBJ format/crop_carrot.obj" id="100_8hdg4"]
+[ext_resource type="ArrayMesh" uid="uid://b2e6jle6ograq" path="res://assets/kenney_nature-kit/Models/OBJ format/crop_melon.obj" id="101_jfc0f"]
+[ext_resource type="ArrayMesh" uid="uid://ccuccgtiq8vm2" path="res://assets/kenney_nature-kit/Models/OBJ format/crop_pumpkin.obj" id="102_lvbiv"]
+[ext_resource type="ArrayMesh" uid="uid://oj703nmmivns" path="res://assets/kenney_nature-kit/Models/OBJ format/crop_turnip.obj" id="103_qcaru"]
+[ext_resource type="ArrayMesh" uid="uid://cp5pb7pu4nth5" path="res://assets/kenney_nature-kit/Models/OBJ format/fence_bend.obj" id="104_0rprd"]
+[ext_resource type="ArrayMesh" uid="uid://ccurjtnuvf3xm" path="res://assets/kenney_nature-kit/Models/OBJ format/fence_bendCenter.obj" id="105_617bj"]
+[ext_resource type="ArrayMesh" uid="uid://dqx7tf2iu053t" path="res://assets/kenney_nature-kit/Models/OBJ format/fence_corner.obj" id="106_xjl4p"]
+[ext_resource type="ArrayMesh" uid="uid://ck4nl81hwka6" path="res://assets/kenney_nature-kit/Models/OBJ format/fence_gate.obj" id="107_gxg2u"]
+[ext_resource type="ArrayMesh" uid="uid://1vhfopnawna5" path="res://assets/kenney_nature-kit/Models/OBJ format/fence_planks.obj" id="108_xv1s1"]
+[ext_resource type="ArrayMesh" uid="uid://f0gavmtxmwu5" path="res://assets/kenney_nature-kit/Models/OBJ format/fence_planksDouble.obj" id="109_vt58b"]
+[ext_resource type="ArrayMesh" uid="uid://w27smih327na" path="res://assets/kenney_nature-kit/Models/OBJ format/fence_simple.obj" id="110_w1xmw"]
+[ext_resource type="ArrayMesh" uid="uid://coooq5j0p1r80" path="res://assets/kenney_nature-kit/Models/OBJ format/fence_simpleCenter.obj" id="111_bwiyp"]
+[ext_resource type="ArrayMesh" uid="uid://of3db7v1s73u" path="res://assets/kenney_nature-kit/Models/OBJ format/fence_simpleDiagonal.obj" id="112_lgkyp"]
+[ext_resource type="ArrayMesh" uid="uid://papo5jewf405" path="res://assets/kenney_nature-kit/Models/OBJ format/fence_simpleDiagonalCenter.obj" id="113_y5phi"]
+[ext_resource type="ArrayMesh" uid="uid://brgostmlixa7y" path="res://assets/kenney_nature-kit/Models/OBJ format/fence_simpleHigh.obj" id="114_qjy6n"]
+[ext_resource type="ArrayMesh" uid="uid://c737ttlnm50at" path="res://assets/kenney_nature-kit/Models/OBJ format/fence_simpleLow.obj" id="115_0c75s"]
+[ext_resource type="ArrayMesh" uid="uid://cldobggpsdg1l" path="res://assets/kenney_nature-kit/Models/OBJ format/flower_purpleA.obj" id="116_4vfdu"]
+[ext_resource type="ArrayMesh" uid="uid://ded8jbkac4e52" path="res://assets/kenney_nature-kit/Models/OBJ format/flower_purpleB.obj" id="117_n7bsb"]
+[ext_resource type="ArrayMesh" uid="uid://dk4kek0sla7o" path="res://assets/kenney_nature-kit/Models/OBJ format/flower_purpleC.obj" id="118_4d5gf"]
+[ext_resource type="ArrayMesh" uid="uid://b3vubkdky078p" path="res://assets/kenney_nature-kit/Models/OBJ format/flower_redA.obj" id="119_kiooq"]
+[ext_resource type="ArrayMesh" uid="uid://bje6gkt744pba" path="res://assets/kenney_nature-kit/Models/OBJ format/flower_redB.obj" id="120_kcsqd"]
+[ext_resource type="ArrayMesh" uid="uid://d16rs4vgk3whi" path="res://assets/kenney_nature-kit/Models/OBJ format/flower_redC.obj" id="121_n55xo"]
+[ext_resource type="ArrayMesh" uid="uid://dlhc68l6jh1ll" path="res://assets/kenney_nature-kit/Models/OBJ format/flower_yellowA.obj" id="122_8sskg"]
+[ext_resource type="ArrayMesh" uid="uid://0lph4gf7p6va" path="res://assets/kenney_nature-kit/Models/OBJ format/flower_yellowB.obj" id="123_riohs"]
+[ext_resource type="ArrayMesh" uid="uid://dksef5jpxkfhk" path="res://assets/kenney_nature-kit/Models/OBJ format/flower_yellowC.obj" id="124_slgxa"]
+[ext_resource type="ArrayMesh" uid="uid://cv6w06jvhpowu" path="res://assets/kenney_nature-kit/Models/OBJ format/grass.obj" id="125_vlwmi"]
+[ext_resource type="ArrayMesh" uid="uid://kw3802l6nhwf" path="res://assets/kenney_nature-kit/Models/OBJ format/grass_large.obj" id="126_4n7fy"]
+[ext_resource type="ArrayMesh" uid="uid://dklqmy6locujm" path="res://assets/kenney_nature-kit/Models/OBJ format/grass_leafs.obj" id="127_iukk0"]
+[ext_resource type="ArrayMesh" uid="uid://bld3nt4heden5" path="res://assets/kenney_nature-kit/Models/OBJ format/grass_leafsLarge.obj" id="128_vrqlo"]
+[ext_resource type="ArrayMesh" uid="uid://ng2ks5s78je0" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_grass.obj" id="129_k7y7s"]
+[ext_resource type="ArrayMesh" uid="uid://3uhayvusgrqk" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_pathBend.obj" id="130_xrchj"]
+[ext_resource type="ArrayMesh" uid="uid://o8ko78t8wh53" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_pathBendBank.obj" id="131_g2784"]
+[ext_resource type="ArrayMesh" uid="uid://qgq1n7mbkyrh" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_pathCorner.obj" id="132_vdt58"]
+[ext_resource type="ArrayMesh" uid="uid://dd8hwf37nplpt" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_pathCornerSmall.obj" id="133_qc3ru"]
+[ext_resource type="ArrayMesh" uid="uid://buaoo2s1kkbhy" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_pathCross.obj" id="134_1kkcd"]
+[ext_resource type="ArrayMesh" uid="uid://dfcoashscig3y" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_pathEnd.obj" id="135_j4hes"]
+[ext_resource type="ArrayMesh" uid="uid://buxokwdw81lxk" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_pathEndClosed.obj" id="136_op6bw"]
+[ext_resource type="ArrayMesh" uid="uid://clmgrxvdfr4qq" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_pathOpen.obj" id="137_ootkw"]
+[ext_resource type="ArrayMesh" uid="uid://b2mwolf7wl2us" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_pathRocks.obj" id="138_djgde"]
+[ext_resource type="ArrayMesh" uid="uid://bu2x2cljtlwf5" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_pathSide.obj" id="139_ivilq"]
+[ext_resource type="ArrayMesh" uid="uid://c50qbebtmua73" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_pathSideOpen.obj" id="140_errbw"]
+[ext_resource type="ArrayMesh" uid="uid://c7l3paomtk4vs" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_pathSplit.obj" id="141_cguyl"]
+[ext_resource type="ArrayMesh" uid="uid://cesbsf16viqad" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_pathStraight.obj" id="142_473xq"]
+[ext_resource type="ArrayMesh" uid="uid://rpelb04ck0qy" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_pathTile.obj" id="143_il531"]
+[ext_resource type="ArrayMesh" uid="uid://fsuoyaoha1i3" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_riverBend.obj" id="144_mi424"]
+[ext_resource type="ArrayMesh" uid="uid://xigwgpy0ov5a" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_riverBendBank.obj" id="145_50mv8"]
+[ext_resource type="ArrayMesh" uid="uid://djkf3mrc6akx7" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_riverCorner.obj" id="146_ml8d0"]
+[ext_resource type="ArrayMesh" uid="uid://ylu5mecbj6g" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_riverCornerSmall.obj" id="147_lvxv7"]
+[ext_resource type="ArrayMesh" uid="uid://cvjjmhkitkcfp" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_riverCross.obj" id="148_0g3h1"]
+[ext_resource type="ArrayMesh" uid="uid://6utvchl3svct" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_riverEnd.obj" id="149_txmdr"]
+[ext_resource type="ArrayMesh" uid="uid://chpb711q47j1f" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_riverEndClosed.obj" id="150_7uvb6"]
+[ext_resource type="ArrayMesh" uid="uid://d0tnn2ormiprd" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_riverOpen.obj" id="151_htrod"]
+[ext_resource type="ArrayMesh" uid="uid://dhbrj15f1dcvi" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_riverRocks.obj" id="152_xbu62"]
+[ext_resource type="ArrayMesh" uid="uid://dwvdi72eg6o30" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_riverSide.obj" id="153_t46k6"]
+[ext_resource type="ArrayMesh" uid="uid://ddnqrav3rkbm0" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_riverSideOpen.obj" id="154_gh63j"]
+[ext_resource type="ArrayMesh" uid="uid://bi3p7vj7u3cq7" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_riverSplit.obj" id="155_wjw4j"]
+[ext_resource type="ArrayMesh" uid="uid://8mcbprnay78w" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_riverStraight.obj" id="156_oaf5f"]
+[ext_resource type="ArrayMesh" uid="uid://ch1fhhxk1idrp" path="res://assets/kenney_nature-kit/Models/OBJ format/ground_riverTile.obj" id="157_m2a6t"]
+[ext_resource type="ArrayMesh" uid="uid://d2uy2786fcufm" path="res://assets/kenney_nature-kit/Models/OBJ format/hanging_moss.obj" id="158_t40ms"]
+[ext_resource type="ArrayMesh" uid="uid://bx5nuemmtjtgd" path="res://assets/kenney_nature-kit/Models/OBJ format/lily_large.obj" id="159_cnfq1"]
+[ext_resource type="ArrayMesh" uid="uid://dbl7m6w62hatn" path="res://assets/kenney_nature-kit/Models/OBJ format/lily_small.obj" id="160_tx1pd"]
+[ext_resource type="ArrayMesh" uid="uid://dwxlvgghvcxvp" path="res://assets/kenney_nature-kit/Models/OBJ format/log.obj" id="161_ntbmy"]
+[ext_resource type="ArrayMesh" uid="uid://875eypdkmk18" path="res://assets/kenney_nature-kit/Models/OBJ format/log_large.obj" id="162_gtcgw"]
+[ext_resource type="ArrayMesh" uid="uid://cqrkqbf4624di" path="res://assets/kenney_nature-kit/Models/OBJ format/log_stack.obj" id="163_0dgpy"]
+[ext_resource type="ArrayMesh" uid="uid://38v8ncwe1mvi" path="res://assets/kenney_nature-kit/Models/OBJ format/log_stackLarge.obj" id="164_s7q5k"]
+[ext_resource type="ArrayMesh" uid="uid://bholr2683ti78" path="res://assets/kenney_nature-kit/Models/OBJ format/mushroom_red.obj" id="165_gc80n"]
+[ext_resource type="ArrayMesh" uid="uid://c0t4emnfgoiul" path="res://assets/kenney_nature-kit/Models/OBJ format/mushroom_redGroup.obj" id="166_cuj53"]
+[ext_resource type="ArrayMesh" uid="uid://4mt4a7nn6v5v" path="res://assets/kenney_nature-kit/Models/OBJ format/mushroom_redTall.obj" id="167_mseme"]
+[ext_resource type="ArrayMesh" uid="uid://bt74sebw4rag0" path="res://assets/kenney_nature-kit/Models/OBJ format/mushroom_tan.obj" id="168_m7sd6"]
+[ext_resource type="ArrayMesh" uid="uid://bp1gl3t7o5gda" path="res://assets/kenney_nature-kit/Models/OBJ format/mushroom_tanGroup.obj" id="169_27vwr"]
+[ext_resource type="ArrayMesh" uid="uid://dkfollpbl2hos" path="res://assets/kenney_nature-kit/Models/OBJ format/mushroom_tanTall.obj" id="170_s54d2"]
+[ext_resource type="ArrayMesh" uid="uid://dd8w8d6acxqhe" path="res://assets/kenney_nature-kit/Models/OBJ format/path_stone.obj" id="171_al671"]
+[ext_resource type="ArrayMesh" uid="uid://dbmxb8i1b5mxg" path="res://assets/kenney_nature-kit/Models/OBJ format/path_stoneCircle.obj" id="172_oqlol"]
+[ext_resource type="ArrayMesh" uid="uid://bv7or70anvtr2" path="res://assets/kenney_nature-kit/Models/OBJ format/path_stoneCorner.obj" id="173_7adbh"]
+[ext_resource type="ArrayMesh" uid="uid://b8a0hb45lbxau" path="res://assets/kenney_nature-kit/Models/OBJ format/path_stoneEnd.obj" id="174_dgg68"]
+[ext_resource type="ArrayMesh" uid="uid://1e28rvd2d7q6" path="res://assets/kenney_nature-kit/Models/OBJ format/path_wood.obj" id="175_x4dq6"]
+[ext_resource type="ArrayMesh" uid="uid://7wdr8dom6vkc" path="res://assets/kenney_nature-kit/Models/OBJ format/path_woodCorner.obj" id="176_flr76"]
+[ext_resource type="ArrayMesh" uid="uid://cuqllfl04yg1a" path="res://assets/kenney_nature-kit/Models/OBJ format/path_woodEnd.obj" id="177_lahci"]
+[ext_resource type="ArrayMesh" uid="uid://chc0kqr2t4hs7" path="res://assets/kenney_nature-kit/Models/OBJ format/plant_bush.obj" id="178_u22pv"]
+[ext_resource type="ArrayMesh" uid="uid://b6aqp2ebeh4qv" path="res://assets/kenney_nature-kit/Models/OBJ format/plant_bushDetailed.obj" id="179_xinph"]
+[ext_resource type="ArrayMesh" uid="uid://djqmvjpqapcot" path="res://assets/kenney_nature-kit/Models/OBJ format/plant_bushLarge.obj" id="180_4rkcf"]
+[ext_resource type="ArrayMesh" uid="uid://0p3sdk3vb8am" path="res://assets/kenney_nature-kit/Models/OBJ format/plant_bushLargeTriangle.obj" id="181_hn5jj"]
+[ext_resource type="ArrayMesh" uid="uid://bovb3p6paybxj" path="res://assets/kenney_nature-kit/Models/OBJ format/plant_bushSmall.obj" id="182_xbe8h"]
+[ext_resource type="ArrayMesh" uid="uid://cms7u4wnv37q2" path="res://assets/kenney_nature-kit/Models/OBJ format/plant_bushTriangle.obj" id="183_8trcl"]
+[ext_resource type="ArrayMesh" uid="uid://b3v56iv2hje3n" path="res://assets/kenney_nature-kit/Models/OBJ format/plant_flatShort.obj" id="184_wwvb5"]
+[ext_resource type="ArrayMesh" uid="uid://coaw8cp26vpt3" path="res://assets/kenney_nature-kit/Models/OBJ format/plant_flatTall.obj" id="185_bsr48"]
+[ext_resource type="ArrayMesh" uid="uid://c6jfakxxoenwj" path="res://assets/kenney_nature-kit/Models/OBJ format/platform_beach.obj" id="186_lktna"]
+[ext_resource type="ArrayMesh" uid="uid://bieobr0sa64uw" path="res://assets/kenney_nature-kit/Models/OBJ format/platform_grass.obj" id="187_tgb2i"]
+[ext_resource type="ArrayMesh" uid="uid://dm62h4ijmkm3f" path="res://assets/kenney_nature-kit/Models/OBJ format/platform_stone.obj" id="188_aq5co"]
+[ext_resource type="ArrayMesh" uid="uid://v3cvi4dyb5ve" path="res://assets/kenney_nature-kit/Models/OBJ format/pot_large.obj" id="189_345a3"]
+[ext_resource type="ArrayMesh" uid="uid://dcy70s7yv7qqk" path="res://assets/kenney_nature-kit/Models/OBJ format/pot_small.obj" id="190_kwuyx"]
+[ext_resource type="ArrayMesh" uid="uid://ura02jwf2lqg" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_largeA.obj" id="191_hih2w"]
+[ext_resource type="ArrayMesh" uid="uid://y4nv8a53xpdu" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_largeB.obj" id="192_xmnjt"]
+[ext_resource type="ArrayMesh" uid="uid://6lr2h6qklri8" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_largeC.obj" id="193_onjyk"]
+[ext_resource type="ArrayMesh" uid="uid://b3onyjtiklg36" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_largeD.obj" id="194_8al8c"]
+[ext_resource type="ArrayMesh" uid="uid://c2dmakx4v8qip" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_largeE.obj" id="195_fdc1i"]
+[ext_resource type="ArrayMesh" uid="uid://cf16rnlsi2g84" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_largeF.obj" id="196_ux4a3"]
+[ext_resource type="ArrayMesh" uid="uid://t7uwuanfvqx5" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_smallA.obj" id="197_um1b6"]
+[ext_resource type="ArrayMesh" uid="uid://bepj1ykjd30g2" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_smallB.obj" id="198_cvytl"]
+[ext_resource type="ArrayMesh" uid="uid://pscxqio6emux" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_smallC.obj" id="199_sigy2"]
+[ext_resource type="ArrayMesh" uid="uid://ijt4o2ptmlqx" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_smallD.obj" id="200_k5i5r"]
+[ext_resource type="ArrayMesh" uid="uid://b3qqq4grobfk4" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_smallE.obj" id="201_lo4j6"]
+[ext_resource type="ArrayMesh" uid="uid://ceu78a1wo76u0" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_smallF.obj" id="202_m7py2"]
+[ext_resource type="ArrayMesh" uid="uid://p0u68cyf61qn" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_smallFlatA.obj" id="203_86l1t"]
+[ext_resource type="ArrayMesh" uid="uid://dufjhn1leoxom" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_smallFlatB.obj" id="204_ketot"]
+[ext_resource type="ArrayMesh" uid="uid://irfh17jrcwll" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_smallFlatC.obj" id="205_ipfru"]
+[ext_resource type="ArrayMesh" uid="uid://blj3r4yobas86" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_smallG.obj" id="206_svfw1"]
+[ext_resource type="ArrayMesh" uid="uid://coh1f0nxbol71" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_smallH.obj" id="207_pkgnt"]
+[ext_resource type="ArrayMesh" uid="uid://c028odrqnnj2p" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_smallI.obj" id="208_1adj8"]
+[ext_resource type="ArrayMesh" uid="uid://dlp4bt0b740qi" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_smallTopA.obj" id="209_k6wnd"]
+[ext_resource type="ArrayMesh" uid="uid://cmbk0qv7dlusl" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_smallTopB.obj" id="210_nsxjg"]
+[ext_resource type="ArrayMesh" uid="uid://dyjp8jgkg213h" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_tallA.obj" id="211_v8i6u"]
+[ext_resource type="ArrayMesh" uid="uid://cb70tcx401f80" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_tallB.obj" id="212_a0njv"]
+[ext_resource type="ArrayMesh" uid="uid://dcfe8vxikqsqe" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_tallC.obj" id="213_hww7p"]
+[ext_resource type="ArrayMesh" uid="uid://bpnit270ipy80" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_tallD.obj" id="214_3aaof"]
+[ext_resource type="ArrayMesh" uid="uid://d1giqrcyie42" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_tallE.obj" id="215_n1ngd"]
+[ext_resource type="ArrayMesh" uid="uid://cd88lmyvfpmui" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_tallF.obj" id="216_hvxn5"]
+[ext_resource type="ArrayMesh" uid="uid://b6ppw1i5xjafw" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_tallG.obj" id="217_fc8p0"]
+[ext_resource type="ArrayMesh" uid="uid://b8uy1ojunrm7a" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_tallH.obj" id="218_2ugcj"]
+[ext_resource type="ArrayMesh" uid="uid://dq81hl37hq" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_tallI.obj" id="219_hfk62"]
+[ext_resource type="ArrayMesh" uid="uid://2cq0rqyiyovp" path="res://assets/kenney_nature-kit/Models/OBJ format/rock_tallJ.obj" id="220_24rtd"]
+[ext_resource type="ArrayMesh" uid="uid://gyhnercbbebj" path="res://assets/kenney_nature-kit/Models/OBJ format/sign.obj" id="221_76pkj"]
+[ext_resource type="ArrayMesh" uid="uid://b4ww6er2otd83" path="res://assets/kenney_nature-kit/Models/OBJ format/statue_block.obj" id="222_kyf8v"]
+[ext_resource type="ArrayMesh" uid="uid://drux0rmo2w101" path="res://assets/kenney_nature-kit/Models/OBJ format/statue_column.obj" id="223_o3ghm"]
+[ext_resource type="ArrayMesh" uid="uid://dvjikohorm18t" path="res://assets/kenney_nature-kit/Models/OBJ format/statue_columnDamaged.obj" id="224_fagmh"]
+[ext_resource type="ArrayMesh" uid="uid://b3mb022n0f2f1" path="res://assets/kenney_nature-kit/Models/OBJ format/statue_head.obj" id="225_lrth2"]
+[ext_resource type="ArrayMesh" uid="uid://c7xj1xt5qufik" path="res://assets/kenney_nature-kit/Models/OBJ format/statue_obelisk.obj" id="226_oqxsf"]
+[ext_resource type="ArrayMesh" uid="uid://cp3le3cdc2ut4" path="res://assets/kenney_nature-kit/Models/OBJ format/statue_ring.obj" id="227_25gs0"]
+[ext_resource type="ArrayMesh" uid="uid://bmav1rcluoydx" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_largeA.obj" id="228_5y8lp"]
+[ext_resource type="ArrayMesh" uid="uid://sgwcute7scmf" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_largeB.obj" id="229_dobsc"]
+[ext_resource type="ArrayMesh" uid="uid://dt8gwg8gymqyr" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_largeC.obj" id="230_ef32t"]
+[ext_resource type="ArrayMesh" uid="uid://dh6bxkt0u8wxr" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_largeD.obj" id="231_2flue"]
+[ext_resource type="ArrayMesh" uid="uid://cowepb0ih24lu" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_largeE.obj" id="232_41l46"]
+[ext_resource type="ArrayMesh" uid="uid://boyerd0xgtlwy" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_largeF.obj" id="233_87o2d"]
+[ext_resource type="ArrayMesh" uid="uid://1qqjmjli0jb7" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_smallA.obj" id="234_7i2fr"]
+[ext_resource type="ArrayMesh" uid="uid://h2uipmgr3lqa" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_smallB.obj" id="235_u4tay"]
+[ext_resource type="ArrayMesh" uid="uid://dm3bv3bbp3bvr" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_smallC.obj" id="236_hgayu"]
+[ext_resource type="ArrayMesh" uid="uid://bi86ltyu10x6t" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_smallD.obj" id="237_3rihg"]
+[ext_resource type="ArrayMesh" uid="uid://cbckilbeq5hla" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_smallE.obj" id="238_7ady1"]
+[ext_resource type="ArrayMesh" uid="uid://ckxd6h6rqeisc" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_smallF.obj" id="239_83w87"]
+[ext_resource type="ArrayMesh" uid="uid://ca045ekwfu6ud" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_smallFlatA.obj" id="240_bw4vl"]
+[ext_resource type="ArrayMesh" uid="uid://cm36sqtcacthq" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_smallFlatB.obj" id="241_0pssi"]
+[ext_resource type="ArrayMesh" uid="uid://c15cuwo7g0pl4" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_smallFlatC.obj" id="242_mkhgy"]
+[ext_resource type="ArrayMesh" uid="uid://btrhlusm3hkx8" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_smallG.obj" id="243_7ll4i"]
+[ext_resource type="ArrayMesh" uid="uid://uu3godfd2t20" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_smallH.obj" id="244_unef5"]
+[ext_resource type="ArrayMesh" uid="uid://cla7bl2junopv" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_smallI.obj" id="245_o2qk3"]
+[ext_resource type="ArrayMesh" uid="uid://bwshmunparxjn" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_smallTopA.obj" id="246_ajue5"]
+[ext_resource type="ArrayMesh" uid="uid://c86gbo57jhoyy" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_smallTopB.obj" id="247_cmrs3"]
+[ext_resource type="ArrayMesh" uid="uid://b8j0c4joa2s48" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_tallA.obj" id="248_4m0nd"]
+[ext_resource type="ArrayMesh" uid="uid://c88oqwgtod1xh" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_tallB.obj" id="249_4pro0"]
+[ext_resource type="ArrayMesh" uid="uid://lbkiivl840th" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_tallC.obj" id="250_jglph"]
+[ext_resource type="ArrayMesh" uid="uid://2ls1mxs4sseu" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_tallD.obj" id="251_w1wcu"]
+[ext_resource type="ArrayMesh" uid="uid://bvurovtewjrjc" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_tallE.obj" id="252_i2jkf"]
+[ext_resource type="ArrayMesh" uid="uid://dphperiph26jy" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_tallF.obj" id="253_drldm"]
+[ext_resource type="ArrayMesh" uid="uid://mnjwa5tyw356" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_tallG.obj" id="254_tud00"]
+[ext_resource type="ArrayMesh" uid="uid://dp4dirlruc7hr" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_tallH.obj" id="255_j8kho"]
+[ext_resource type="ArrayMesh" uid="uid://cd7ylkhiak1sb" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_tallI.obj" id="256_cvh38"]
+[ext_resource type="ArrayMesh" uid="uid://dpjyex22c0raa" path="res://assets/kenney_nature-kit/Models/OBJ format/stone_tallJ.obj" id="257_omrev"]
+[ext_resource type="ArrayMesh" uid="uid://dc3xsxoe1q6hr" path="res://assets/kenney_nature-kit/Models/OBJ format/stump_old.obj" id="258_bg7qk"]
+[ext_resource type="ArrayMesh" uid="uid://5gedt2psr73i" path="res://assets/kenney_nature-kit/Models/OBJ format/stump_oldTall.obj" id="259_ie13e"]
+[ext_resource type="ArrayMesh" uid="uid://duggx7gmthab5" path="res://assets/kenney_nature-kit/Models/OBJ format/stump_round.obj" id="260_x5vqx"]
+[ext_resource type="ArrayMesh" uid="uid://dqy45qekcv1e3" path="res://assets/kenney_nature-kit/Models/OBJ format/stump_roundDetailed.obj" id="261_ybeg6"]
+[ext_resource type="ArrayMesh" uid="uid://baaktk1ek0hgd" path="res://assets/kenney_nature-kit/Models/OBJ format/stump_square.obj" id="262_fkb2m"]
+[ext_resource type="ArrayMesh" uid="uid://6iplalqwjb2x" path="res://assets/kenney_nature-kit/Models/OBJ format/stump_squareDetailed.obj" id="263_w73ud"]
+[ext_resource type="ArrayMesh" uid="uid://ca1biprrux01i" path="res://assets/kenney_nature-kit/Models/OBJ format/stump_squareDetailedWide.obj" id="264_qf72c"]
+[ext_resource type="ArrayMesh" uid="uid://et8wesrmq7q2" path="res://assets/kenney_nature-kit/Models/OBJ format/tent_detailedClosed.obj" id="265_eml6t"]
+[ext_resource type="ArrayMesh" uid="uid://cqcln5utxrl7q" path="res://assets/kenney_nature-kit/Models/OBJ format/tent_detailedOpen.obj" id="266_4ea7i"]
+[ext_resource type="ArrayMesh" uid="uid://donucadg0uj6n" path="res://assets/kenney_nature-kit/Models/OBJ format/tent_smallClosed.obj" id="267_7wbix"]
+[ext_resource type="ArrayMesh" uid="uid://cd667k42p8o8q" path="res://assets/kenney_nature-kit/Models/OBJ format/tent_smallOpen.obj" id="268_snasl"]
+[ext_resource type="ArrayMesh" uid="uid://bm78jm7mc2yco" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_blocks.obj" id="269_5ubc6"]
+[ext_resource type="ArrayMesh" uid="uid://c6lyv2pnrs4vp" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_blocks_dark.obj" id="270_abl7a"]
+[ext_resource type="ArrayMesh" uid="uid://c4wolpr4vjl5k" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_blocks_fall.obj" id="271_xoplh"]
+[ext_resource type="ArrayMesh" uid="uid://c36qn3u3bmrga" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_cone.obj" id="272_ey0st"]
+[ext_resource type="ArrayMesh" uid="uid://csql864ivlxrf" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_cone_dark.obj" id="273_wwunm"]
+[ext_resource type="ArrayMesh" uid="uid://w10aqnjyoo1j" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_cone_fall.obj" id="274_2pqb3"]
+[ext_resource type="ArrayMesh" uid="uid://bbuopixpyhgs" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_default.obj" id="275_own8n"]
+[ext_resource type="ArrayMesh" uid="uid://c1uq6afwipi8d" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_default_dark.obj" id="276_c4ca3"]
+[ext_resource type="ArrayMesh" uid="uid://b3daciljis3li" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_default_fall.obj" id="277_pwqos"]
+[ext_resource type="ArrayMesh" uid="uid://15765yak4tkg" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_detailed.obj" id="278_agf0r"]
+[ext_resource type="ArrayMesh" uid="uid://7edlbw3wayrh" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_detailed_dark.obj" id="279_2rxff"]
+[ext_resource type="ArrayMesh" uid="uid://xrowkcfnbp7y" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_detailed_fall.obj" id="280_mwx4g"]
+[ext_resource type="ArrayMesh" uid="uid://bdm38pdu5pg5y" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_fat.obj" id="281_dayfs"]
+[ext_resource type="ArrayMesh" uid="uid://d2bter3uyg2c7" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_fat_darkh.obj" id="282_4narg"]
+[ext_resource type="ArrayMesh" uid="uid://br0uo5cscxve5" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_fat_fall.obj" id="283_5aknm"]
+[ext_resource type="ArrayMesh" uid="uid://2bq4yiirlw87" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_oak.obj" id="284_1boah"]
+[ext_resource type="ArrayMesh" uid="uid://cejc8peulavkl" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_oak_dark.obj" id="285_ygr6b"]
+[ext_resource type="ArrayMesh" uid="uid://b0dr28pxxoqgl" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_oak_fall.obj" id="286_hrh20"]
+[ext_resource type="ArrayMesh" uid="uid://c1cle8k3eieeq" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_palm.obj" id="287_iog5e"]
+[ext_resource type="ArrayMesh" uid="uid://dtk5ts7nugbte" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_palmBend.obj" id="288_xy3kq"]
+[ext_resource type="ArrayMesh" uid="uid://bit4jsmw386dp" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_palmDetailedShort.obj" id="289_y3c6c"]
+[ext_resource type="ArrayMesh" uid="uid://0iub0vw0wcxt" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_palmDetailedTall.obj" id="290_32jcv"]
+[ext_resource type="ArrayMesh" uid="uid://gqnrluqnvtq1" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_palmShort.obj" id="291_bhea3"]
+[ext_resource type="ArrayMesh" uid="uid://iwgwnowbdslx" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_palmTall.obj" id="292_xhsw4"]
+[ext_resource type="ArrayMesh" uid="uid://cklyyho2lkc10" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineDefaultA.obj" id="293_qmn3d"]
+[ext_resource type="ArrayMesh" uid="uid://bac8of5r2ro65" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineDefaultB.obj" id="294_usxet"]
+[ext_resource type="ArrayMesh" uid="uid://1c1b43labein" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineGroundA.obj" id="295_su1k3"]
+[ext_resource type="ArrayMesh" uid="uid://tqag3qvyo2us" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineGroundB.obj" id="296_hj7em"]
+[ext_resource type="ArrayMesh" uid="uid://dxi3kkinassu8" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineRoundA.obj" id="297_clqe2"]
+[ext_resource type="ArrayMesh" uid="uid://clfs2su1pb6jh" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineRoundB.obj" id="298_fn2px"]
+[ext_resource type="ArrayMesh" uid="uid://dhdfk575f0xr0" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineRoundC.obj" id="299_mv3d0"]
+[ext_resource type="ArrayMesh" uid="uid://d02e00dgxtnjq" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineRoundD.obj" id="300_l6w2o"]
+[ext_resource type="ArrayMesh" uid="uid://dash52c08pdj1" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineRoundE.obj" id="301_w7cp6"]
+[ext_resource type="ArrayMesh" uid="uid://cm67g4u5eo6ds" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineRoundF.obj" id="302_dddvn"]
+[ext_resource type="ArrayMesh" uid="uid://byfq7ptj6n2fh" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineSmallA.obj" id="303_dqjml"]
+[ext_resource type="ArrayMesh" uid="uid://b2kb0ppwctano" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineSmallB.obj" id="304_7numl"]
+[ext_resource type="ArrayMesh" uid="uid://bclg8knas6xar" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineSmallC.obj" id="305_j800u"]
+[ext_resource type="ArrayMesh" uid="uid://pjqib2b8u8da" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineSmallD.obj" id="306_pex53"]
+[ext_resource type="ArrayMesh" uid="uid://dclo7104v3jjs" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineTallA.obj" id="307_mfsmy"]
+[ext_resource type="ArrayMesh" uid="uid://ds2ugbl7q3i2g" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineTallA_detailed.obj" id="308_iv8b3"]
+[ext_resource type="ArrayMesh" uid="uid://b243x3wko3rjv" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineTallB.obj" id="309_qqmxh"]
+[ext_resource type="ArrayMesh" uid="uid://dfw3hmo51vmqx" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineTallB_detailed.obj" id="310_33wf7"]
+[ext_resource type="ArrayMesh" uid="uid://6nbrukb6eeit" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineTallC.obj" id="311_00w80"]
+[ext_resource type="ArrayMesh" uid="uid://bu2feu1hmtnaw" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineTallC_detailed.obj" id="312_egvp5"]
+[ext_resource type="ArrayMesh" uid="uid://b18kn6d1yqxy4" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineTallD.obj" id="313_5a5f7"]
+[ext_resource type="ArrayMesh" uid="uid://3itt1m8j6pr8" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_pineTallD_detailed.obj" id="314_66qf8"]
+[ext_resource type="ArrayMesh" uid="uid://btmnqmuu1csg7" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_plateau.obj" id="315_iqjrg"]
+[ext_resource type="ArrayMesh" uid="uid://dmyajyso1foq6" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_plateau_dark.obj" id="316_pd4gg"]
+[ext_resource type="ArrayMesh" uid="uid://hpaq71fmrmdx" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_plateau_fall.obj" id="317_1xih8"]
+[ext_resource type="ArrayMesh" uid="uid://cxgypw36yleqr" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_simple.obj" id="318_ijmw3"]
+[ext_resource type="ArrayMesh" uid="uid://bui2hfbnn3qan" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_simple_dark.obj" id="319_ardra"]
+[ext_resource type="ArrayMesh" uid="uid://bxffrvo6p4srj" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_simple_fall.obj" id="320_sja0v"]
+[ext_resource type="ArrayMesh" uid="uid://bpstm17wuuist" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_small.obj" id="321_s64aw"]
+[ext_resource type="ArrayMesh" uid="uid://c4fif066r1yqy" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_small_dark.obj" id="322_1pktm"]
+[ext_resource type="ArrayMesh" uid="uid://cwtvjcqgbcpl3" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_small_fall.obj" id="323_6615s"]
+[ext_resource type="ArrayMesh" uid="uid://5aakbg8b444d" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_tall.obj" id="324_qgosx"]
+[ext_resource type="ArrayMesh" uid="uid://cu8loxgdl1tyc" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_tall_dark.obj" id="325_1t0h3"]
+[ext_resource type="ArrayMesh" uid="uid://cko7wtk1bhgr0" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_tall_fall.obj" id="326_hxrlj"]
+[ext_resource type="ArrayMesh" uid="uid://biapcqck2w80" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_thin.obj" id="327_oblxq"]
+[ext_resource type="ArrayMesh" uid="uid://b127avd5dkc0j" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_thin_dark.obj" id="328_37abe"]
+[ext_resource type="ArrayMesh" uid="uid://cq740tqufx85d" path="res://assets/kenney_nature-kit/Models/OBJ format/tree_thin_fall.obj" id="329_7t0go"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_btde7"]
+data = PackedVector3Array(-0.2006, 0.6138, -0.4, -0.1587, 0.798, 0.05, -0.0462, 0.798, -0.4, -0.0462, 0.798, -0.4, 0.0662, 0.798, 0.5, 0.0662, 0.798, -0.4, 0.0662, 0.798, 0.5, -0.0462, 0.798, -0.4, -0.1587, 0.798, 0.5, -0.1587, 0.798, 0.5, -0.0462, 0.798, -0.4, -0.1587, 0.798, 0.05, 0.0662, 0.798, 0.5, 0.1665, 0.4874, -0.4, 0.0662, 0.798, -0.4, 0.1665, 0.4874, -0.4, 0.0662, 0.798, 0.5, 0.1665, 0.4874, 0.5, -0.2426, 0.4296, -0.4, -0.1587, 0.798, 0.05, -0.2006, 0.6138, -0.4, -0.1587, 0.798, 0.05, -0.2426, 0.4296, -0.4, -0.2426, 0.4296, 0.5, -0.1587, 0.798, 0.05, -0.2426, 0.4296, 0.5, -0.1587, 0.798, 0.5, -0.3145, 0.4296, -0.4, -0.2426, 0.4296, 0.5, -0.2426, 0.4296, -0.4, -0.2426, 0.4296, 0.5, -0.3145, 0.4296, -0.4, -0.3145, 0.4296, 0.5, -0.2185, 0, -0.4, -0.4, 0, 0.05, -0.3572, 0.2148, -0.4, -0.5, 1, -0.5, -0.5, 0, 0.5, -0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 1, -0.5, -0.5, 1, 0.5, 0.4, 0, -0.1094, 0.4, 0, 0.5, 0.5, 0, 0.5, 0.5, 0, -0.5, 0.4, 0, -0.1094, 0.5, 0, 0.5, 0.5, 0, -0.5, 0.273, 0, -0.4, 0.4, 0, -0.1094, 0.273, 0, -0.4, 0.5, 0, -0.5, -0.5, 0, -0.5, 0.273, 0, -0.4, -0.5, 0, -0.5, -0.2185, 0, -0.4, -0.2185, 0, -0.4, -0.5, 0, -0.5, -0.4, 0, 0.05, -0.5, 0, 0.5, -0.4, 0, 0.05, -0.5, 0, -0.5, -0.4, 0, 0.05, -0.5, 0, 0.5, -0.4, 0, 0.5, 0.2744, 0.4874, -0.4, 0.4, 0, -0.1094, 0.3372, 0.2437, -0.4, 0.4, 0, -0.1094, 0.2744, 0.4874, -0.4, 0.2744, 0.4874, 0.5, 0.4, 0, -0.1094, 0.2744, 0.4874, 0.5, 0.4, 0, 0.5, 0.5, 0, -0.5, 0.5, 1, 0.5, 0.5, 1, -0.5, 0.5, 1, 0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, 0.1665, 0.4874, -0.4, 0.2744, 0.4874, 0.5, 0.2744, 0.4874, -0.4, 0.2744, 0.4874, 0.5, 0.1665, 0.4874, -0.4, 0.1665, 0.4874, 0.5, -0.4, 0, 0.05, -0.3145, 0.4296, -0.4, -0.3572, 0.2148, -0.4, -0.3145, 0.4296, -0.4, -0.4, 0, 0.05, -0.3145, 0.4296, 0.5, -0.3145, 0.4296, 0.5, -0.4, 0, 0.05, -0.4, 0, 0.5, 0.5, 0, -0.5, -0.5, 1, -0.5, -0.5, 0, -0.5, -0.5, 1, -0.5, 0.5, 0, -0.5, 0.5, 1, -0.5, 0.3372, 0.2437, -0.4, 0.4, 0, -0.1094, 0.273, 0, -0.4, -0.2426, 0.4296, -0.4, 0.2744, 0.4874, -0.4, 0.3372, 0.2437, -0.4, 0.2744, 0.4874, -0.4, -0.2426, 0.4296, -0.4, 0.1665, 0.4874, -0.4, 0.1665, 0.4874, -0.4, -0.2426, 0.4296, -0.4, -0.2006, 0.6138, -0.4, 0.1665, 0.4874, -0.4, -0.2006, 0.6138, -0.4, 0.0662, 0.798, -0.4, 0.0662, 0.798, -0.4, -0.2006, 0.6138, -0.4, -0.0462, 0.798, -0.4, 0.3372, 0.2437, -0.4, -0.3145, 0.4296, -0.4, -0.2426, 0.4296, -0.4, 0.3372, 0.2437, -0.4, -0.3572, 0.2148, -0.4, -0.3145, 0.4296, -0.4, 0.3372, 0.2437, -0.4, -0.2185, 0, -0.4, -0.3572, 0.2148, -0.4, -0.2185, 0, -0.4, 0.3372, 0.2437, -0.4, 0.273, 0, -0.4, -0.3145, 0.4296, 0.5, -0.1587, 0.798, 0.5, -0.2426, 0.4296, 0.5, -0.3145, 0.4296, 0.5, -0.5, 1, 0.5, -0.1587, 0.798, 0.5, -0.3145, 0.4296, 0.5, -0.5, 0, 0.5, -0.5, 1, 0.5, -0.5, 0, 0.5, -0.3145, 0.4296, 0.5, -0.4, 0, 0.5, -0.1587, 0.798, 0.5, -0.5, 1, 0.5, 0.5, 1, 0.5, 0.5, 1, 0.5, 0.0662, 0.798, 0.5, -0.1587, 0.798, 0.5, 0.5, 1, 0.5, 0.1665, 0.4874, 0.5, 0.0662, 0.798, 0.5, 0.5, 1, 0.5, 0.2744, 0.4874, 0.5, 0.1665, 0.4874, 0.5, 0.5, 1, 0.5, 0.4, 0, 0.5, 0.2744, 0.4874, 0.5, 0.4, 0, 0.5, 0.5, 1, 0.5, 0.5, 0, 0.5, 0.5, 1, 0.5, -0.5, 1, -0.5, 0.5, 1, -0.5, -0.5, 1, -0.5, 0.5, 1, 0.5, -0.5, 1, 0.5)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_ottdv"]
+data = PackedVector3Array(-0.5, 1, -0.5, -0.5, 0, 0.5, -0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 1, -0.5, -0.5, 1, 0.5, 0.2744, 0.4874, -0.4, 0.1665, 0.4874, 0.5, 0.2744, 0.4874, 0.5, 0.1665, 0.4874, 0.5, 0.2744, 0.4874, -0.4, 0.1665, 0.4874, -0.4, 0.0662, 0.798, -0.4, 0.1665, 0.4874, 0.5, 0.1665, 0.4874, -0.4, 0.1665, 0.4874, 0.5, 0.0662, 0.798, -0.4, 0.0662, 0.798, 0.5, 0.5, 0, -0.5, 0.5, 1, 0.5, 0.5, 1, -0.5, 0.5, 1, 0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, 0.5, 0, -0.5, -0.5, 1, -0.5, -0.5, 0, -0.5, -0.5, 1, -0.5, 0.5, 0, -0.5, 0.5, 1, -0.5, -0.3145, 0.4296, 0.5, -0.1587, 0.798, 0.5, -0.2426, 0.4296, 0.5, -0.3145, 0.4296, 0.5, -0.5, 1, 0.5, -0.1587, 0.798, 0.5, -0.3145, 0.4296, 0.5, -0.5, 0, 0.5, -0.5, 1, 0.5, -0.5, 0, 0.5, -0.3145, 0.4296, 0.5, -0.4, 0, 0.5, -0.1587, 0.798, 0.5, -0.5, 1, 0.5, 0.5, 1, 0.5, 0.5, 1, 0.5, 0.0662, 0.798, 0.5, -0.1587, 0.798, 0.5, 0.5, 1, 0.5, 0.1665, 0.4874, 0.5, 0.0662, 0.798, 0.5, 0.5, 1, 0.5, 0.2744, 0.4874, 0.5, 0.1665, 0.4874, 0.5, 0.5, 1, 0.5, 0.4, 0, 0.5, 0.2744, 0.4874, 0.5, 0.4, 0, 0.5, 0.5, 1, 0.5, 0.5, 0, 0.5, -0.2426, 0.4296, -0.4, -0.3145, 0.4296, 0.5, -0.2426, 0.4296, 0.5, -0.3145, 0.4296, 0.5, -0.2426, 0.4296, -0.4, -0.3145, 0.4296, -0.4, -0.3572, 0.2148, -0.4, -0.3145, 0.4296, 0.5, -0.3145, 0.4296, -0.4, -0.3145, 0.4296, 0.5, -0.3572, 0.2148, -0.4, -0.4, 0, 0.05, -0.3145, 0.4296, 0.5, -0.4, 0, 0.05, -0.4, 0, 0.5, -0.4, 0, 0.05, -0.5, 0, 0.5, -0.4, 0, 0.5, -0.4, 0, 0.05, -0.5, 0, -0.5, -0.5, 0, 0.5, -0.2185, 0, -0.4, -0.5, 0, -0.5, -0.4, 0, 0.05, 0.273, 0, -0.4, -0.5, 0, -0.5, -0.2185, 0, -0.4, 0.273, 0, -0.4, 0.5, 0, -0.5, -0.5, 0, -0.5, 0.4, 0, -0.1094, 0.5, 0, -0.5, 0.273, 0, -0.4, 0.4, 0, 0.5, 0.5, 0, -0.5, 0.4, 0, -0.1094, 0.5, 0, -0.5, 0.4, 0, 0.5, 0.5, 0, 0.5, -0.2426, 0.4296, -0.4, 0.2744, 0.4874, -0.4, 0.3372, 0.2437, -0.4, 0.2744, 0.4874, -0.4, -0.2426, 0.4296, -0.4, 0.1665, 0.4874, -0.4, 0.1665, 0.4874, -0.4, -0.2426, 0.4296, -0.4, -0.2006, 0.6138, -0.4, 0.1665, 0.4874, -0.4, -0.2006, 0.6138, -0.4, 0.0662, 0.798, -0.4, 0.0662, 0.798, -0.4, -0.2006, 0.6138, -0.4, -0.0462, 0.798, -0.4, 0.3372, 0.2437, -0.4, -0.3145, 0.4296, -0.4, -0.2426, 0.4296, -0.4, 0.3372, 0.2437, -0.4, -0.3572, 0.2148, -0.4, -0.3145, 0.4296, -0.4, 0.3372, 0.2437, -0.4, -0.2185, 0, -0.4, -0.3572, 0.2148, -0.4, -0.2185, 0, -0.4, 0.3372, 0.2437, -0.4, 0.273, 0, -0.4, 0.2744, 0.4874, -0.4, 0.4, 0, -0.1094, 0.3372, 0.2437, -0.4, 0.4, 0, -0.1094, 0.2744, 0.4874, -0.4, 0.2744, 0.4874, 0.5, 0.4, 0, -0.1094, 0.2744, 0.4874, 0.5, 0.4, 0, 0.5, -0.2006, 0.6138, -0.4, -0.1587, 0.798, 0.05, -0.0462, 0.798, -0.4, -0.2185, 0, -0.4, -0.4, 0, 0.05, -0.3572, 0.2148, -0.4, 0.0662, 0.798, -0.4, -0.1587, 0.798, 0.5, 0.0662, 0.798, 0.5, -0.1587, 0.798, 0.5, 0.0662, 0.798, -0.4, -0.0462, 0.798, -0.4, -0.1587, 0.798, 0.5, -0.0462, 0.798, -0.4, -0.1587, 0.798, 0.05, -0.2426, 0.4296, -0.4, -0.1587, 0.798, 0.05, -0.2006, 0.6138, -0.4, -0.1587, 0.798, 0.05, -0.2426, 0.4296, -0.4, -0.2426, 0.4296, 0.5, -0.1587, 0.798, 0.05, -0.2426, 0.4296, 0.5, -0.1587, 0.798, 0.5, 0.3372, 0.2437, -0.4, 0.4, 0, -0.1094, 0.273, 0, -0.4, -0.5, 1, 0.5, 0.5, 1, -0.5, 0.5, 1, 0.5, 0.5, 1, -0.5, -0.5, 1, 0.5, -0.5, 1, -0.5)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_7h286"]
+data = PackedVector3Array(0.5, 1, 0.5, -0.5, 1, -0.5, 0.5, 1, -0.5, 0.5, 0, -0.5, 0.5, 1, 0.5, 0.5, 1, -0.5, 0.5, 1, 0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, -0.5, 1, -0.5, 0.5, 0, 0.5, -0.5, 0, -0.5, 0.5, 0, 0.5, -0.5, 1, -0.5, 0.5, 1, 0.5, 0.5, 0, -0.5, -0.5, 0, -0.5, 0.5, 0, 0.5, 0.5, 0, -0.5, -0.5, 1, -0.5, -0.5, 0, -0.5, -0.5, 1, -0.5, 0.5, 0, -0.5, 0.5, 1, -0.5)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_viq06"]
+data = PackedVector3Array(0.5, 1, 0.5, -0.5, 1, -0.5, 0.5, 1, -0.5, 0.5, 0, -0.5, 0.5, 1, 0.5, 0.5, 1, -0.5, 0.5, 1, 0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, -0.5, 1, -0.5, 0.5, 0, 0.5, -0.5, 0, -0.5, 0.5, 0, 0.5, -0.5, 1, -0.5, 0.5, 1, 0.5, 0.5, 0, -0.5, -0.5, 0, -0.5, 0.5, 0, 0.5, 0.5, 0, -0.5, -0.5, 1, -0.5, -0.5, 0, -0.5, -0.5, 1, -0.5, 0.5, 0, -0.5, 0.5, 1, -0.5)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_w2yh4"]
+data = PackedVector3Array(0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, 0.5, 0.5, 0.5, 0, 0.5, 0.5, 0.5, 0.5, -0.5, 0, 0.5, -0.5, 0.5, 0.5, 0.5, 0, -0.5, -0.5, 0.5, -0.5, -0.5, 0, -0.5, -0.5, 0.5, -0.5, 0.5, 0, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0, 0.5, -0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0, -0.5, -0.5, 0, 0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, 0, -0.5, -0.5, 0, -0.5)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_oe0ur"]
+data = PackedVector3Array(0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, 0.5, 0.5, 0.5, 0, 0.5, 0.5, 0.5, 0.5, -0.5, 0, 0.5, -0.5, 0.5, 0.5, 0.5, 0, -0.5, -0.5, 0.5, -0.5, -0.5, 0, -0.5, -0.5, 0.5, -0.5, 0.5, 0, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0, 0.5, -0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0, -0.5, -0.5, 0, 0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, 0, -0.5, -0.5, 0, -0.5)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_h7f31"]
+data = PackedVector3Array(0.5, 0.25, 0.5, -0.5, 0.25, -0.5, 0.5, 0.25, -0.5, -0.5, 0.25, -0.5, 0.5, 0.25, 0.5, -0.5, 0.25, 0.5, 0.5, 0, -0.5, 0.5, 0.25, 0.5, 0.5, 0.25, -0.5, 0.5, 0.25, 0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, 0.25, 0.5, 0.5, 0, 0.5, 0.5, 0.25, 0.5, -0.5, 0, 0.5, -0.5, 0.25, 0.5, 0.5, 0, -0.5, -0.5, 0.25, -0.5, -0.5, 0, -0.5, -0.5, 0.25, -0.5, 0.5, 0, -0.5, 0.5, 0.25, -0.5, -0.5, 0.25, -0.5, -0.5, 0, 0.5, -0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 0.25, -0.5, -0.5, 0.25, 0.5, 0.5, 0, -0.5, -0.5, 0, 0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, 0, -0.5, -0.5, 0, -0.5)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_6xolp"]
+data = PackedVector3Array(0.5, 0.25, 0.5, -0.5, 0.25, -0.5, 0.5, 0.25, -0.5, -0.5, 0.25, -0.5, 0.5, 0.25, 0.5, -0.5, 0.25, 0.5, 0.5, 0, -0.5, 0.5, 0.25, 0.5, 0.5, 0.25, -0.5, 0.5, 0.25, 0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, 0.25, 0.5, 0.5, 0, 0.5, 0.5, 0.25, 0.5, -0.5, 0, 0.5, -0.5, 0.25, 0.5, 0.5, 0, -0.5, -0.5, 0.25, -0.5, -0.5, 0, -0.5, -0.5, 0.25, -0.5, 0.5, 0, -0.5, 0.5, 0.25, -0.5, -0.5, 0.25, -0.5, -0.5, 0, 0.5, -0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 0.25, -0.5, -0.5, 0.25, 0.5, 0.5, 0, -0.5, -0.5, 0, 0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, 0, -0.5, -0.5, 0, -0.5)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_w3yck"]
+data = PackedVector3Array(-0.4315, 0.8333, -0.3333, -0.5, 0, -0.1667, -0.4315, 0, -0.3333, -0.5, 0, -0.1667, -0.4315, 0.8333, -0.3333, -0.5, 0.6667, -0.1667, -0.5, 0.6667, -0.1667, -0.4315, 0, 0, -0.5, 0, -0.1667, -0.4315, 0, 0, -0.5, 0.6667, -0.1667, -0.4315, 0.5, 0, 0.4315, 0, -0.3333, 0.5, 1, -0.5, 0.5, 0, -0.5, 0.5, 1, -0.5, 0.4315, 0, -0.3333, 0.4315, 0.8333, -0.3333, 0.4315, 0, 0.3333, 0.5, 0, 0.5, 0.4315, 0.1667, 0.3333, -0.5, 1, -0.5, -0.4315, 0, -0.3333, -0.5, 0, -0.5, -0.4315, 0, -0.3333, -0.5, 1, -0.5, -0.4315, 0.8333, -0.3333, 0.4315, 0, 0.3333, -0.5, 0, 0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, 0.4315, 0, 0.3333, 0.4315, 0, 0, -0.5, 0, 0.5, 0.4315, 0, 0, 0.4315, 0, -0.3333, -0.5, 0, 0.5, 0.4315, 0, -0.3333, -0.4315, 0, 0.3333, 0.4315, 0, -0.3333, -0.4315, 0, 0, -0.4315, 0, 0.3333, -0.4315, 0, 0, -0.5, 0, 0.1667, -0.4315, 0, 0.3333, 0.4315, 0, -0.3333, -0.4315, 0, -0.3333, -0.4315, 0, 0, -0.4315, 0, -0.3333, -0.5, 0, -0.1667, -0.4315, 0, 0, 0.4315, 0, -0.3333, -0.5, 0, -0.5, -0.4315, 0, -0.3333, -0.5, 0, -0.5, 0.4315, 0, -0.3333, 0.5, 0, -0.5, 0.5, 0, -0.1667, 0.4315, 0, -0.3333, 0.4315, 0, 0, 0.5, 0, 0.1667, 0.4315, 0, 0, 0.4315, 0, 0.3333, -0.5, 0.3333, 0.1667, -0.4315, 0, 0.3333, -0.5, 0, 0.1667, -0.4315, 0, 0.3333, -0.5, 0.3333, 0.1667, -0.4315, 0.1667, 0.3333, 0.5, 1, -0.5, -0.5, 0, -0.5, 0.5, 0, -0.5, -0.5, 0, -0.5, 0.5, 1, -0.5, -0.5, 1, -0.5, 0.5, 0, 0.1667, 0.4315, 0.1667, 0.3333, 0.5, 0.3333, 0.1667, 0.4315, 0.1667, 0.3333, 0.5, 0, 0.1667, 0.4315, 0, 0.3333, 0.5, 0, -0.1667, 0.4315, 0.5, 0, 0.5, 0.6667, -0.1667, 0.4315, 0.5, 0, 0.5, 0, -0.1667, 0.4315, 0, 0, -0.4315, 0.1667, 0.3333, -0.5, 0, 0.5, -0.4315, 0, 0.3333, -0.4315, 0.5, 0, -0.5, 0, 0.1667, -0.4315, 0, 0, -0.5, 0, 0.1667, -0.4315, 0.5, 0, -0.5, 0.3333, 0.1667, 0.4315, 0, 0, 0.5, 0.3333, 0.1667, 0.4315, 0.5, 0, 0.5, 0.3333, 0.1667, 0.4315, 0, 0, 0.5, 0, 0.1667, 0.4315, 0, -0.3333, 0.5, 0.6667, -0.1667, 0.4315, 0.8333, -0.3333, 0.5, 0.6667, -0.1667, 0.4315, 0, -0.3333, 0.5, 0, -0.1667, -0.5, 0.6667, -0.1667, -0.5315, 0.7333, -0.3333, -0.4315, 0.8333, -0.3333, -0.5315, 0.7333, -0.3333, -0.5, 0.6667, -0.1667, -0.6, 0.5667, -0.1667, -0.5, 0, 0.5, -0.5315, 0.0667, 0.3333, -0.4315, 0.1667, 0.3333, 0.4315, 0.8333, -0.3333, 0.6, 0.9, -0.5, 0.5315, 0.7333, -0.3333, 0.6, 0.9, -0.5, 0.4315, 0.8333, -0.3333, 0.5, 1, -0.5, 0.5, 0.6667, -0.1667, 0.5315, 0.7333, -0.3333, 0.6, 0.5667, -0.1667, 0.5315, 0.7333, -0.3333, 0.5, 0.6667, -0.1667, 0.4315, 0.8333, -0.3333, 0.4315, 0.1667, 0.3333, 0.6, 0.2333, 0.1667, 0.5315, 0.0667, 0.3333, 0.6, 0.2333, 0.1667, 0.4315, 0.1667, 0.3333, 0.5, 0.3333, 0.1667, -0.6, 0.2333, 0.1667, -0.4315, 0.1667, 0.3333, -0.5315, 0.0667, 0.3333, -0.4315, 0.1667, 0.3333, -0.6, 0.2333, 0.1667, -0.5, 0.3333, 0.1667, 0.5, 0, 0.5, 0.4315, 0.1667, 0.3333, 0.5315, 0.0667, 0.3333, 0.4315, 0.5, 0, 0.6, 0.5667, -0.1667, 0.5315, 0.4, 0, 0.6, 0.5667, -0.1667, 0.4315, 0.5, 0, 0.5, 0.6667, -0.1667, 0.4315, 0.1667, 0.3333, 0.4315, 0.5, 0, 0.5, 0.3333, 0.1667, 0.4315, 0.1667, 0.3333, -0.5, 0, 0.5, 0.4315, 0.5, 0, -0.5, 0, 0.5, 0.4315, 0.1667, 0.3333, 0.5, 0, 0.5, 0.4315, 0.5, 0, -0.5, 0, 0.5, 0.4315, 0.8333, -0.3333, 0.4315, 0.5, 0, 0.4315, 0.8333, -0.3333, 0.5, 0.6667, -0.1667, 0.4315, 0.8333, -0.3333, -0.5, 0, 0.5, -0.4315, 0.1667, 0.3333, -0.4315, 0.5, 0, 0.4315, 0.8333, -0.3333, -0.4315, 0.1667, 0.3333, -0.4315, 0.8333, -0.3333, 0.4315, 0.8333, -0.3333, -0.4315, 0.5, 0, -0.5, 1, -0.5, 0.4315, 0.8333, -0.3333, -0.4315, 0.8333, -0.3333, 0.4315, 0.8333, -0.3333, -0.5, 1, -0.5, 0.5, 1, -0.5, -0.4315, 0.5, 0, -0.5, 0.6667, -0.1667, -0.4315, 0.8333, -0.3333, -0.4315, 0.1667, 0.3333, -0.5, 0.3333, 0.1667, -0.4315, 0.5, 0, -0.5, 0.3333, 0.1667, -0.5315, 0.4, 0, -0.4315, 0.5, 0, -0.5315, 0.4, 0, -0.5, 0.3333, 0.1667, -0.6, 0.2333, 0.1667, -0.6, 0.9, -0.5, -0.4315, 0.8333, -0.3333, -0.5315, 0.7333, -0.3333, -0.4315, 0.8333, -0.3333, -0.6, 0.9, -0.5, -0.5, 1, -0.5, 0.5, 0.3333, 0.1667, 0.5315, 0.4, 0, 0.6, 0.2333, 0.1667, 0.5315, 0.4, 0, 0.5, 0.3333, 0.1667, 0.4315, 0.5, 0, -0.6, 0.5667, -0.1667, -0.4315, 0.5, 0, -0.5315, 0.4, 0, -0.4315, 0.5, 0, -0.6, 0.5667, -0.1667, -0.5, 0.6667, -0.1667)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_ddoln"]
+data = PackedVector3Array(0.5, 1, 0.5, -0.5, 1, -0.5, 0.5, 1, -0.5, -0.5, 1, -0.5, 0.5, 1, 0.5, -0.5, 1, 0.5, 0.5, 0, -0.5, 0.5, 1, 0.5, 0.5, 1, -0.5, 0.5, 1, 0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, 1, 0.5, 0.5, 0, 0.5, 0.5, 1, 0.5, -0.5, 0, 0.5, -0.5, 1, 0.5, 0.5, 0, -0.5, -0.5, 1, -0.5, -0.5, 0, -0.5, -0.5, 1, -0.5, 0.5, 0, -0.5, 0.5, 1, -0.5, -0.5, 1, -0.5, -0.5, 0, 0.5, -0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 1, -0.5, -0.5, 1, 0.5, 0.5, 0, -0.5, -0.5, 0, 0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, 0, -0.5, -0.5, 0, -0.5)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_qe1ox"]
+data = PackedVector3Array(0.5, 1, 0.5, -0.5, 1, -0.5, 0.5, 1, -0.5, -0.5, 1, -0.5, 0.5, 1, 0.5, -0.5, 1, 0.5, 0.5, 0, -0.5, 0.5, 1, 0.5, 0.5, 1, -0.5, 0.5, 1, 0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, 1, 0.5, 0.5, 0, 0.5, 0.5, 1, 0.5, -0.5, 0, 0.5, -0.5, 1, 0.5, 0.5, 0, -0.5, -0.5, 1, -0.5, -0.5, 0, -0.5, -0.5, 1, -0.5, 0.5, 0, -0.5, 0.5, 1, -0.5, -0.5, 1, -0.5, -0.5, 0, 0.5, -0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 1, -0.5, -0.5, 1, 0.5, 0.5, 0, -0.5, -0.5, 0, 0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, 0, -0.5, -0.5, 0, -0.5)
+
+[node name="Tiles" type="Node3D"]
+
+[node name="Bed" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("1_x4xe6")
+
+[node name="BedFloor" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("2_0pbfu")
+
+[node name="BedFloor2" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("2_0pbfu")
+
+[node name="BridgeCenterStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("3_nwm3i")
+
+[node name="BridgeCenterStoneRound" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("4_j4ysj")
+
+[node name="BridgeCenterWood" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("5_y1jhl")
+
+[node name="BridgeCenterWoodRound" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("6_y4747")
+
+[node name="BridgeSideStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("7_1jp7u")
+
+[node name="BridgeSideStoneRound" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("8_opuqx")
+
+[node name="BridgeSideWood" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("9_8vbxs")
+
+[node name="BridgeSideWoodRound" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("10_gg35k")
+
+[node name="BridgeStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("11_56xfc")
+
+[node name="BridgeStoneNarrow" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("12_7x4r2")
+
+[node name="BridgeStoneRound" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("13_vrh1m")
+
+[node name="BridgeStoneRoundNarrow" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("14_ebjcw")
+
+[node name="BridgeWood" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("15_wq5f6")
+
+[node name="BridgeWoodNarrow" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("16_7tr16")
+
+[node name="BridgeWoodRound" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("17_ngclx")
+
+[node name="BridgeWoodRoundNarrow" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("18_65lgk")
+
+[node name="CactusShort" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("19_03yfy")
+
+[node name="CactusTall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("20_ax57k")
+
+[node name="CampfireBricks" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("21_xwicx")
+
+[node name="CampfireLogs" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("22_0v5hw")
+
+[node name="CampfirePlanks" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("23_t4pyi")
+
+[node name="CampfireStones" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("24_bgadf")
+
+[node name="Canoe" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("25_53kkm")
+
+[node name="CanoePaddle" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("26_jbxnm")
+
+[node name="CliffBlockCaveRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("27_x2otp")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CliffBlockCaveRock"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CliffBlockCaveRock/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_btde7")
+
+[node name="CliffBlockCaveStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("28_5p40a")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CliffBlockCaveStone"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CliffBlockCaveStone/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_ottdv")
+
+[node name="CliffBlockDiagonalRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("29_46s71")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CliffBlockDiagonalRock"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CliffBlockDiagonalRock/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_7h286")
+
+[node name="CliffBlockDiagonalStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("30_oifq1")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CliffBlockDiagonalStone"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CliffBlockDiagonalStone/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_viq06")
+
+[node name="CliffBlockHalfRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("31_8elf3")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CliffBlockHalfRock"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CliffBlockHalfRock/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_w2yh4")
+
+[node name="CliffBlockHalfStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("32_utkto")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CliffBlockHalfStone"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CliffBlockHalfStone/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_oe0ur")
+
+[node name="CliffBlockQuarterRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("33_16pcf")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CliffBlockQuarterRock"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CliffBlockQuarterRock/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_h7f31")
+
+[node name="CliffBlockQuarterStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("34_fanni")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CliffBlockQuarterStone"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CliffBlockQuarterStone/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_6xolp")
+
+[node name="CliffBlockSlopeHalfWallsRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("35_5uf77")
+
+[node name="CliffBlockSlopeHalfWallsStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("36_epwry")
+
+[node name="CliffBlockSlopeWallsRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("37_1wxmu")
+
+[node name="CliffBlockSlopeWallsStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("38_dj7lv")
+
+[node name="CliffBlockSlopeRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("39_fbijv")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CliffBlockSlopeRock"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CliffBlockSlopeRock/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_w3yck")
+
+[node name="CliffBlockSlopeStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("40_ru7xx")
+
+[node name="CliffBlockRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("41_ooib2")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CliffBlockRock"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CliffBlockRock/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_ddoln")
+
+[node name="CliffBlockStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("42_ypo5b")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CliffBlockStone"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CliffBlockStone/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_qe1ox")
+
+[node name="CliffCaveRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("43_5i4jg")
+
+[node name="CliffCaveStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("44_j0h0x")
+
+[node name="CliffCornerInnerLargeRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("45_srob7")
+
+[node name="CliffCornerInnerLargeStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("46_s7g85")
+
+[node name="CliffCornerInnerTopRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("47_acjq3")
+
+[node name="CliffCornerInnerTopStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("48_ytxa0")
+
+[node name="CliffCornerInnerRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("49_4rmux")
+
+[node name="CliffCornerInnerStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("50_srif4")
+
+[node name="CliffCornerLargeRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("51_3huo3")
+
+[node name="CliffCornerLargeStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("52_xtqk7")
+
+[node name="CliffCornerTopRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("53_gg61y")
+
+[node name="CliffCornerTopStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("54_epnam")
+
+[node name="CliffCornerRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("55_kotsx")
+
+[node name="CliffCornerStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("56_tpl35")
+
+[node name="CliffDiagonalRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("57_suxm5")
+
+[node name="CliffDiagonalStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("58_n0i3o")
+
+[node name="CliffHalfCornerInnerRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("59_to5jh")
+
+[node name="CliffHalfCornerInnerStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("60_a0o1n")
+
+[node name="CliffHalfCornerRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("61_ahhnw")
+
+[node name="CliffHalfCornerStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("62_x11mp")
+
+[node name="CliffHalfRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("63_jiiqh")
+
+[node name="CliffHalfStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("64_72lxu")
+
+[node name="CliffLargeRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("65_l2gmr")
+
+[node name="CliffLargeStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("66_bhu2d")
+
+[node name="CliffRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("67_memp2")
+
+[node name="CliffStepsCornerInnerRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("68_5qc86")
+
+[node name="CliffStepsCornerInnerStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("69_ddpe5")
+
+[node name="CliffStepsCornerRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("70_27t4c")
+
+[node name="CliffStepsCornerStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("71_tj0lc")
+
+[node name="CliffStepsRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("72_untdm")
+
+[node name="CliffStepsStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("73_j8jut")
+
+[node name="CliffStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("74_rgoqb")
+
+[node name="CliffTopDiagonalRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("75_t8xnp")
+
+[node name="CliffTopDiagonalStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("76_wj5r0")
+
+[node name="CliffTopRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("77_y5ysw")
+
+[node name="CliffTopStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("78_tfk08")
+
+[node name="CliffWaterfallTopRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("79_ujwef")
+
+[node name="CliffWaterfallTopStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("80_t1uqw")
+
+[node name="CliffWaterfallRock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("81_8y4fj")
+
+[node name="CliffWaterfallStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("82_preeb")
+
+[node name="CropsBambooStageA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("83_aqlf6")
+
+[node name="CropsBambooStageB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("84_oq5uc")
+
+[node name="CropsCornStageA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("85_ojl5w")
+
+[node name="CropsCornStageB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("86_q4wbd")
+
+[node name="CropsCornStageC" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("87_wyuqs")
+
+[node name="CropsCornStageD" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("88_bp7ok")
+
+[node name="CropsDirtDoubleRow" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("89_0rukq")
+
+[node name="CropsDirtDoubleRowCorner" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("90_3g2vs")
+
+[node name="CropsDirtDoubleRowEnd" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("91_654q1")
+
+[node name="CropsDirtRow" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("92_a8mgk")
+
+[node name="CropsDirtRowCorner" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("93_tubvi")
+
+[node name="CropsDirtRowEnd" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("94_fn74c")
+
+[node name="CropsDirtSingle" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("95_r0a1x")
+
+[node name="CropsLeafsStageA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("96_kryv2")
+
+[node name="CropsLeafsStageB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("97_7knt1")
+
+[node name="CropsWheatStageA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("98_yl0ab")
+
+[node name="CropsWheatStageB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("99_0mfh3")
+
+[node name="CropCarrot" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("100_8hdg4")
+
+[node name="CropMelon" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("101_jfc0f")
+
+[node name="CropPumpkin" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("102_lvbiv")
+
+[node name="CropTurnip" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("103_qcaru")
+
+[node name="FenceBend" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("104_0rprd")
+
+[node name="FenceBendCenter" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("105_617bj")
+
+[node name="FenceCorner" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("106_xjl4p")
+
+[node name="FenceGate" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("107_gxg2u")
+
+[node name="FencePlanks" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("108_xv1s1")
+
+[node name="FencePlanksDouble" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("109_vt58b")
+
+[node name="FenceSimple" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("110_w1xmw")
+
+[node name="FenceSimpleCenter" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("111_bwiyp")
+
+[node name="FenceSimpleDiagonal" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("112_lgkyp")
+
+[node name="FenceSimpleDiagonalCenter" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("113_y5phi")
+
+[node name="FenceSimpleHigh" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("114_qjy6n")
+
+[node name="FenceSimpleLow" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("115_0c75s")
+
+[node name="FlowerPurpleA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("116_4vfdu")
+
+[node name="FlowerPurpleB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("117_n7bsb")
+
+[node name="FlowerPurpleC" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("118_4d5gf")
+
+[node name="FlowerRedA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("119_kiooq")
+
+[node name="FlowerRedB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("120_kcsqd")
+
+[node name="FlowerRedC" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("121_n55xo")
+
+[node name="FlowerYellowA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("122_8sskg")
+
+[node name="FlowerYellowB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("123_riohs")
+
+[node name="FlowerYellowC" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("124_slgxa")
+
+[node name="Grass" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("125_vlwmi")
+
+[node name="GrassLarge" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("126_4n7fy")
+
+[node name="GrassLeafs" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("127_iukk0")
+
+[node name="GrassLeafsLarge" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("128_vrqlo")
+
+[node name="GroundGrass" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("129_k7y7s")
+
+[node name="GroundPathBend" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("130_xrchj")
+
+[node name="GroundPathBendBank" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("131_g2784")
+
+[node name="GroundPathCorner" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("132_vdt58")
+
+[node name="GroundPathCornerSmall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("133_qc3ru")
+
+[node name="GroundPathCross" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("134_1kkcd")
+
+[node name="GroundPathEnd" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("135_j4hes")
+
+[node name="GroundPathEndClosed" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("136_op6bw")
+
+[node name="GroundPathOpen" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("137_ootkw")
+
+[node name="GroundPathRocks" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("138_djgde")
+
+[node name="GroundPathSide" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("139_ivilq")
+
+[node name="GroundPathSideOpen" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("140_errbw")
+
+[node name="GroundPathSplit" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("141_cguyl")
+
+[node name="GroundPathStraight" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("142_473xq")
+
+[node name="GroundPathTile" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("143_il531")
+
+[node name="GroundRiverBend" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("144_mi424")
+
+[node name="GroundRiverBendBank" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("145_50mv8")
+
+[node name="GroundRiverCorner" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("146_ml8d0")
+
+[node name="GroundRiverCornerSmall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("147_lvxv7")
+
+[node name="GroundRiverCross" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("148_0g3h1")
+
+[node name="GroundRiverEnd" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("149_txmdr")
+
+[node name="GroundRiverEndClosed" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("150_7uvb6")
+
+[node name="GroundRiverOpen" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("151_htrod")
+
+[node name="GroundRiverRocks" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("152_xbu62")
+
+[node name="GroundRiverSide" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("153_t46k6")
+
+[node name="GroundRiverSideOpen" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("154_gh63j")
+
+[node name="GroundRiverSplit" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("155_wjw4j")
+
+[node name="GroundRiverStraight" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("156_oaf5f")
+
+[node name="GroundRiverTile" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("157_m2a6t")
+
+[node name="HangingMoss" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("158_t40ms")
+
+[node name="LilyLarge" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("159_cnfq1")
+
+[node name="LilySmall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("160_tx1pd")
+
+[node name="Log" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("161_ntbmy")
+
+[node name="LogLarge" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("162_gtcgw")
+
+[node name="LogStack" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("163_0dgpy")
+
+[node name="LogStackLarge" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("164_s7q5k")
+
+[node name="MushroomRed" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("165_gc80n")
+
+[node name="MushroomRedGroup" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("166_cuj53")
+
+[node name="MushroomRedTall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("167_mseme")
+
+[node name="MushroomTan" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("168_m7sd6")
+
+[node name="MushroomTanGroup" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("169_27vwr")
+
+[node name="MushroomTanTall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("170_s54d2")
+
+[node name="PathStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("171_al671")
+
+[node name="PathStoneCircle" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("172_oqlol")
+
+[node name="PathStoneCorner" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("173_7adbh")
+
+[node name="PathStoneEnd" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("174_dgg68")
+
+[node name="PathWood" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("175_x4dq6")
+
+[node name="PathWoodCorner" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("176_flr76")
+
+[node name="PathWoodEnd" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("177_lahci")
+
+[node name="PlantBush" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("178_u22pv")
+
+[node name="PlantBushDetailed" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("179_xinph")
+
+[node name="PlantBushLarge" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("180_4rkcf")
+
+[node name="PlantBushLargeTriangle" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("181_hn5jj")
+
+[node name="PlantBushSmall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("182_xbe8h")
+
+[node name="PlantBushTriangle" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("183_8trcl")
+
+[node name="PlantFlatShort" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("184_wwvb5")
+
+[node name="PlantFlatTall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("185_bsr48")
+
+[node name="PlatformBeach" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("186_lktna")
+
+[node name="PlatformGrass" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("187_tgb2i")
+
+[node name="PlatformStone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("188_aq5co")
+
+[node name="PotLarge" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("189_345a3")
+
+[node name="PotSmall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("190_kwuyx")
+
+[node name="RockLargeA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("191_hih2w")
+
+[node name="RockLargeB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("192_xmnjt")
+
+[node name="RockLargeC" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("193_onjyk")
+
+[node name="RockLargeD" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("194_8al8c")
+
+[node name="RockLargeE" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("195_fdc1i")
+
+[node name="RockLargeF" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("196_ux4a3")
+
+[node name="RockSmallA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("197_um1b6")
+
+[node name="RockSmallB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("198_cvytl")
+
+[node name="RockSmallC" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("199_sigy2")
+
+[node name="RockSmallD" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("200_k5i5r")
+
+[node name="RockSmallE" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("201_lo4j6")
+
+[node name="RockSmallF" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("202_m7py2")
+
+[node name="RockSmallFlatA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("203_86l1t")
+
+[node name="RockSmallFlatB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("204_ketot")
+
+[node name="RockSmallFlatC" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("205_ipfru")
+
+[node name="RockSmallG" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("206_svfw1")
+
+[node name="RockSmallH" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("207_pkgnt")
+
+[node name="RockSmallI" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("208_1adj8")
+
+[node name="RockSmallTopA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("209_k6wnd")
+
+[node name="RockSmallTopB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("210_nsxjg")
+
+[node name="RockTallA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("211_v8i6u")
+
+[node name="RockTallB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("212_a0njv")
+
+[node name="RockTallC" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("213_hww7p")
+
+[node name="RockTallD" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("214_3aaof")
+
+[node name="RockTallE" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("215_n1ngd")
+
+[node name="RockTallF" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("216_hvxn5")
+
+[node name="RockTallG" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("217_fc8p0")
+
+[node name="RockTallH" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("218_2ugcj")
+
+[node name="RockTallI" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("219_hfk62")
+
+[node name="RockTallJ" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("220_24rtd")
+
+[node name="Sign" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("221_76pkj")
+
+[node name="StatueBlock" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("222_kyf8v")
+
+[node name="StatueColumn" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("223_o3ghm")
+
+[node name="StatueColumnDamaged" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("224_fagmh")
+
+[node name="StatueHead" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("225_lrth2")
+
+[node name="StatueObelisk" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("226_oqxsf")
+
+[node name="StatueRing" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("227_25gs0")
+
+[node name="StoneLargeA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("228_5y8lp")
+
+[node name="StoneLargeB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("229_dobsc")
+
+[node name="StoneLargeC" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("230_ef32t")
+
+[node name="StoneLargeD" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("231_2flue")
+
+[node name="StoneLargeE" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("232_41l46")
+
+[node name="StoneLargeF" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("233_87o2d")
+
+[node name="StoneSmallA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("234_7i2fr")
+
+[node name="StoneSmallB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("235_u4tay")
+
+[node name="StoneSmallC" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("236_hgayu")
+
+[node name="StoneSmallD" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("237_3rihg")
+
+[node name="StoneSmallE" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("238_7ady1")
+
+[node name="StoneSmallF" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("239_83w87")
+
+[node name="StoneSmallFlatA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("240_bw4vl")
+
+[node name="StoneSmallFlatB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("241_0pssi")
+
+[node name="StoneSmallFlatC" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("242_mkhgy")
+
+[node name="StoneSmallG" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("243_7ll4i")
+
+[node name="StoneSmallH" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("244_unef5")
+
+[node name="StoneSmallI" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("245_o2qk3")
+
+[node name="StoneSmallTopA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("246_ajue5")
+
+[node name="StoneSmallTopB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("247_cmrs3")
+
+[node name="StoneTallA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("248_4m0nd")
+
+[node name="StoneTallB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("249_4pro0")
+
+[node name="StoneTallC" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("250_jglph")
+
+[node name="StoneTallD" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("251_w1wcu")
+
+[node name="StoneTallE" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("252_i2jkf")
+
+[node name="StoneTallF" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("253_drldm")
+
+[node name="StoneTallG" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("254_tud00")
+
+[node name="StoneTallH" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("255_j8kho")
+
+[node name="StoneTallI" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("256_cvh38")
+
+[node name="StoneTallJ" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("257_omrev")
+
+[node name="StumpOld" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("258_bg7qk")
+
+[node name="StumpOldTall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("259_ie13e")
+
+[node name="StumpRound" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("260_x5vqx")
+
+[node name="StumpRoundDetailed" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("261_ybeg6")
+
+[node name="StumpSquare" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("262_fkb2m")
+
+[node name="StumpSquareDetailed" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("263_w73ud")
+
+[node name="StumpSquareDetailedWide" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("264_qf72c")
+
+[node name="TentDetailedClosed" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("265_eml6t")
+
+[node name="TentDetailedOpen" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("266_4ea7i")
+
+[node name="TentSmallClosed" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("267_7wbix")
+
+[node name="TentSmallOpen" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("268_snasl")
+
+[node name="TreeBlocks" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("269_5ubc6")
+
+[node name="TreeBlocksDark" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("270_abl7a")
+
+[node name="TreeBlocksFall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("271_xoplh")
+
+[node name="TreeCone" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("272_ey0st")
+
+[node name="TreeConeDark" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("273_wwunm")
+
+[node name="TreeConeFall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("274_2pqb3")
+
+[node name="TreeDefault" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("275_own8n")
+
+[node name="TreeDefaultDark" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("276_c4ca3")
+
+[node name="TreeDefaultFall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("277_pwqos")
+
+[node name="TreeDetailed" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("278_agf0r")
+
+[node name="TreeDetailedDark" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("279_2rxff")
+
+[node name="TreeDetailedFall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("280_mwx4g")
+
+[node name="TreeFat" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("281_dayfs")
+
+[node name="TreeFatDarkh" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("282_4narg")
+
+[node name="TreeFatFall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("283_5aknm")
+
+[node name="TreeOak" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("284_1boah")
+
+[node name="TreeOakDark" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("285_ygr6b")
+
+[node name="TreeOakFall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("286_hrh20")
+
+[node name="TreePalm" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("287_iog5e")
+
+[node name="TreePalmBend" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("288_xy3kq")
+
+[node name="TreePalmDetailedShort" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("289_y3c6c")
+
+[node name="TreePalmDetailedTall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("290_32jcv")
+
+[node name="TreePalmShort" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("291_bhea3")
+
+[node name="TreePalmTall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("292_xhsw4")
+
+[node name="TreePineDefaultA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("293_qmn3d")
+
+[node name="TreePineDefaultB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("294_usxet")
+
+[node name="TreePineGroundA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("295_su1k3")
+
+[node name="TreePineGroundB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("296_hj7em")
+
+[node name="TreePineRoundA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("297_clqe2")
+
+[node name="TreePineRoundB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("298_fn2px")
+
+[node name="TreePineRoundC" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("299_mv3d0")
+
+[node name="TreePineRoundD" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("300_l6w2o")
+
+[node name="TreePineRoundE" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("301_w7cp6")
+
+[node name="TreePineRoundF" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("302_dddvn")
+
+[node name="TreePineSmallA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("303_dqjml")
+
+[node name="TreePineSmallB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("304_7numl")
+
+[node name="TreePineSmallC" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("305_j800u")
+
+[node name="TreePineSmallD" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("306_pex53")
+
+[node name="TreePineTallA" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("307_mfsmy")
+
+[node name="TreePineTallADetailed" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("308_iv8b3")
+
+[node name="TreePineTallB" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("309_qqmxh")
+
+[node name="TreePineTallBDetailed" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("310_33wf7")
+
+[node name="TreePineTallC" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("311_00w80")
+
+[node name="TreePineTallCDetailed" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("312_egvp5")
+
+[node name="TreePineTallD" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("313_5a5f7")
+
+[node name="TreePineTallDDetailed" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("314_66qf8")
+
+[node name="TreePlateau" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("315_iqjrg")
+
+[node name="TreePlateauDark" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("316_pd4gg")
+
+[node name="TreePlateauFall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("317_1xih8")
+
+[node name="TreeSimple" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("318_ijmw3")
+
+[node name="TreeSimpleDark" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("319_ardra")
+
+[node name="TreeSimpleFall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("320_sja0v")
+
+[node name="TreeSmall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("321_s64aw")
+
+[node name="TreeSmallDark" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("322_1pktm")
+
+[node name="TreeSmallFall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("323_6615s")
+
+[node name="TreeTall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("324_qgosx")
+
+[node name="TreeTallDark" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("325_1t0h3")
+
+[node name="TreeTallFall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("326_hxrlj")
+
+[node name="TreeThin" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("327_oblxq")
+
+[node name="TreeThinDark" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("328_37abe")
+
+[node name="TreeThinFall" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("329_7t0go")
