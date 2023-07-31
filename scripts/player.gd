@@ -6,6 +6,7 @@ extends CharacterBody3D
 
 var SPEED = 1
 const JUMP_VELOCITY = 4.5
+const HIT_STAGGER = 8
 
 var walking_speed = 1
 var running_speed = 3
@@ -13,6 +14,9 @@ var running_speed = 3
 var running = false
 
 var is_locked = false
+
+# singal
+signal player_hit
 
 @export var sens_horizontal = 0.5
 @export var sens_vertical = 0.2
@@ -30,7 +34,7 @@ func _input(event):
 		camera_mount.rotate_x(deg_to_rad(-event.relative.y * sens_vertical))
 
 func _physics_process(delta):
-	if !animation_tree.get("parameters/hit_tr2/active"):
+	if !animation_tree.get("parameters/hit_tr2/active") and !animation_tree.get("parameters/hurt_tr/active"):
 		is_locked = false
 	
 	if is_locked:
@@ -84,6 +88,13 @@ func _physics_process(delta):
 
 
 func _on_sword_hit_area_entered(area):
+	print("hit")
 	if area.is_in_group("enemy"):
 		print('sdf')
 		area.take_damage()
+
+
+func take_damage(dir):
+	emit_signal("player_hit")
+	velocity += dir * HIT_STAGGER
+	animation_tree.set("parameters/hurt_tr/request", AnimationNodeOneShot.ONE_SHOT_REQUEST_FIRE)

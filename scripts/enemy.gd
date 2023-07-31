@@ -1,28 +1,47 @@
 extends CharacterBody3D
 
 @onready var animation_tree = $visuals/zombie1/AnimationTree
+@export var player_path : NodePath = "/root/world/player"
 
-var SPEED = 1
-const JUMP_VELOCITY = 4.5
+@onready var navigation_agent_3d = $NavigationAgent3D
 
-var walking_speed = 1
-var running_speed = 3
+const SPEED = 2.5
+const ATTACK_RANGE = 0.8
 
-var running = false
-
-var is_locked = false
-
-@export var sens_horizontal = 0.5
-@export var sens_vertical = 0.2
-
-# Get the gravity from the project settings to be synced with RigidBody nodes.
-var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
+var player = null
+var state_machine
 
 func _ready():
-	pass
-
-func _physics_process(delta):
+	print(player_path)
+	player = get_node(player_path)
+	state_machine = animation_tree.get("parameters/playback")
+	
+func _process(delta):
+	velocity = Vector3.ZERO
+	
+	match state_machine.get_current_node():
+		"Run":
+			navigation_agent_3d.set_target_position(player.global_transform.origin)
+			var next_nav_point = navigation_agent_3d.get_next_path_position()
+			velocity = (next_nav_point - global_transform.origin).normalized() * SPEED
+			
+			look_at(Vector3(player.global_position.x + velocity.x, global_position.y, player.global_position.z + velocity.z), Vector3.UP)
+		"Attack":
+			look_at(Vector3(player.global_position.x, global_position.y, player.global_position.z), Vector3.UP)
+			
+	# Conditions
+	animation_tree.set("parameters/conditions/attack", _target_in_range())
+	animation_tree.set("parameters/conditions/run", !_target_in_range())
+	
 	move_and_slide()
+
+func _target_in_range():
+	return global_position.distance_to(player.global_position) < ATTACK_RANGE
+
+func _hit_finished():
+	if global_position.distance_to(player.global_position) < ATTACK_RANGE + 0.1:
+		var dir = global_position.direction_to(player.global_position)
+		player.take_damage(dir)
 
 func take_damage():
 	print('hit')
