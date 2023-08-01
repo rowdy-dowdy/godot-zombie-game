@@ -1,37 +1,36 @@
 extends CharacterBody3D
 
 @onready var animation_tree = $visuals/zombie1/AnimationTree
-@export var player_path : NodePath = "/root/world/player"
+@export var player_path : NodePath
 
 @onready var navigation_agent_3d = $NavigationAgent3D
 
-const SPEED = 2.5
+const SPEED = 1
 const ATTACK_RANGE = 0.8
 
 var player = null
-var state_machine
 
 func _ready():
-	print(player_path)
 	player = get_node(player_path)
-	state_machine = animation_tree.get("parameters/playback")
 	
 func _process(delta):
+#	animation_tree.advance(delta * 0.005)
 	velocity = Vector3.ZERO
-	
-	match state_machine.get_current_node():
-		"Run":
-			navigation_agent_3d.set_target_position(player.global_transform.origin)
-			var next_nav_point = navigation_agent_3d.get_next_path_position()
-			velocity = (next_nav_point - global_transform.origin).normalized() * SPEED
-			
-			look_at(Vector3(player.global_position.x + velocity.x, global_position.y, player.global_position.z + velocity.z), Vector3.UP)
-		"Attack":
-			look_at(Vector3(player.global_position.x, global_position.y, player.global_position.z), Vector3.UP)
-			
+
+	if animation_tree.get("parameters/attack/current_state") == "false":
+		navigation_agent_3d.set_target_position(player.global_transform.origin)
+		var next_nav_point = navigation_agent_3d.get_next_path_position()
+		velocity = (next_nav_point - global_transform.origin).normalized() * SPEED
+
+		look_at(Vector3(player.global_position.x + velocity.x, global_position.y, player.global_position.z + velocity.z), Vector3.UP)
+	else:
+		look_at(Vector3(player.global_position.x, global_position.y, player.global_position.z), Vector3.UP)
+
 	# Conditions
-	animation_tree.set("parameters/conditions/attack", _target_in_range())
-	animation_tree.set("parameters/conditions/run", !_target_in_range())
+	if _target_in_range():
+		animation_tree.set("parameters/attack/transition_request", "true")
+	else:
+		animation_tree.set("parameters/attack/transition_request", "false")
 	
 	move_and_slide()
 
