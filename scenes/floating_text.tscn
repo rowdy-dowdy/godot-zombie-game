@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cbbxw2onp2kxw"]
+
+[ext_resource type="FontFile" uid="uid://cjy45rqeg48cq" path="res://assets/font/xolonium/Xolonium-Regular.ttf" id="1_y6yxo"]
+[ext_resource type="Script" path="res://scripts/floating_text.gd" id="1_yctem"]
+
+[node name="FloatingText" type="Node3D"]
+script = ExtResource("1_yctem")
+
+[node name="Label3D" type="Label3D" parent="."]
+modulate = Color(1, 0, 0, 1)
+text = "200"
+font = ExtResource("1_y6yxo")
+font_size = 20
+outline_size = 9

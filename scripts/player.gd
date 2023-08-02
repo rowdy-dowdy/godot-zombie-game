@@ -6,12 +6,17 @@ extends CharacterBody3D
 
 var speed = 5
 const JUMP_VELOCITY = 4.5
-const HIT_STAGGER = 8
+const HIT_STAGGER = 20
 
 var is_attack = false
+var is_hit = false
+var despawn_timer = 0
+
+var hp = 10
 
 # singal
 signal player_hit
+signal losed
 
 @export var sens_horizontal = 0.5
 @export var sens_vertical = 0.2
@@ -28,7 +33,20 @@ func _ready():
 #		visuals.rotate_y(deg_to_rad(event.relative.x * sens_horizontal))
 #		camera_mount.rotate_x(deg_to_rad(-event.relative.y * sens_vertical))
 
+func lose(delta):
+	if despawn_timer > 0:
+		despawn_timer -= delta
+		if despawn_timer <= 0:
+			emit_signal("losed")
+#			queue_free()
+
 func _physics_process(delta):
+	lose(delta)
+	
+	if hp <= 0:
+		animation_tree.set("parameters/die/transition_request", "true")
+		return
+		
 	if animation_tree.get("parameters/attack/current_state") == "true":
 		is_attack = true
 	else:
@@ -58,13 +76,29 @@ func _physics_process(delta):
 
 
 func _on_sword_hit_area_entered(area):
-	print("hit")
-	if area.is_in_group("enemy"):
-		print('sdf')
-		area.take_damage()
-
+	if area.is_in_group("enemy") and area.get_parent().has_method('take_damage'):
+		var dir = global_position.direction_to(area.get_parent().global_position)
+		var damage_amount = 50
+		area.get_parent().take_damage(damage_amount, dir)
 
 func take_damage(dir):
-	emit_signal("player_hit")
-	velocity += dir * HIT_STAGGER
+	if !is_hit:
+		hp -= 10
+		
+		if hp <= 0:
+			despawn_timer = 2.0
+			$attack_ctrl.await_time = 0
+			
+		emit_signal("player_hit")
+#		velocity += dir * HIT_STAGGER
+		is_hit = true
+		await get_tree().create_timer(1).timeout
+		is_hit = false
 #	animation_tree.set("parameters/hurt_tr/request", AnimationNodeOneShot.ONE_SHOT_REQUEST_FIRE)
+
+func restart():
+	hp = 100
+	despawn_timer = 0
+	animation_tree.set("parameters/die/transition_request", "false")
+	$attack_ctrl.await_time = 0
+	

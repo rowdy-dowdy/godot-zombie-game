@@ -17,6 +17,7 @@ var animation_finished = false
 
 var state
 var timeout_timer = 0
+var await_time = 0
 
 func set_attack(number, my_recover_start, my_push_forward_start, my_speed):
 	attack_number = number
@@ -26,10 +27,14 @@ func set_attack(number, my_recover_start, my_push_forward_start, my_speed):
 	speed = my_speed
 
 func input_attack(delta):
+	if await_time <= 1:
+		await_time += delta
+		return
+	
 	timeout_timer += delta
 	if Input.is_action_pressed("kick"):
 		state = "ATTACKING"
-		if timeout_timer > 5:
+		if timeout_timer > 3:
 			attack_number = 1
 			timeout_timer = 0
 
